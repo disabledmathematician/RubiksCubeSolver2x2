@@ -299,12 +299,11 @@ def Scramble():
 	States.append(n)
 	for move in moves:
 		States.append(move(n))
-	States.popleft()
 	while True:
 	   state = States.popleft()
 	   for move in moves:
 	        t = move(state)
-	        print(t.moves)
+	        #print(t.moves)
 	        States.append(t)
 	   isSolved = Solve_CTruscottWatters([state.tlf, state.blf, state.trf, state.brf, state.tlb, state.blb, state.trb, state.brb])
 	   print("Initial State: Front Face: {}, Left Face: {}, Right Face:{} Back Face: {}, Up face: {}, Down face: {}\n".format(state.front_face, state.left_face, state.right_face, state.back_face, state.up_face, state.down_face))
@@ -338,7 +337,7 @@ def Solve_CTruscottWatters(inputState):
 
             t = move(state)
 
-            print(t.moves)
+            #print(t.moves)
 
             States.append(t)
 
