@@ -1,0 +1,7 @@
+Initial State:
+Front Face: ['Y', 'G', 'Y', 'G']
+Left Face: ['O', 'O', 'O', 'O']
+Right Face: ['R', 'R', 'R', 'R']
+Back Face: ['B', 'W', 'B', 'W']
+Up Face: ['G', 'W', 'G', 'W']
+Down Face:['B', 'Y', 'B', 'Y'],['L inverse'],['L'],
