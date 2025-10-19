@@ -41,8 +41,7 @@ class RubiksState(object):
 #        print("Up face: {}".format(self.up_face))
 #        print("Down face:{}".format(self.down_face))
         self.moves = moves
-        if self.is_solved():
-        	print("SOLVED: {}".format(self.moves))
+  
     def L(self):
         """ TLF to TLB, TLB to BLB, BLB to BLF, BLF to TLF """
         ntlf, nblf, ntlb, nblb = [0] * 3, [0] * 3, [0] * 3, [0] * 3
@@ -284,18 +283,45 @@ class RubiksState(object):
         if self.blb == ['Y', 'O', 'B'] and self.tlb == ['W', 'O', 'B'] and self.brb == ['Y', 'R', 'B'] and self.trb == ['W', 'R', 'B'] and self.blf == ['Y', 'O', 'G'] and self.tlf == ['W', 'O', 'G'] and self.brf == ['Y', 'R', 'G'] and self.trf == ['W', 'R', 'G']:
             print('Solved: {}'.format(self.moves))
             print("{}".format(self.orientation))
-            exit(1)
+#            exit(1)
         if self.front_face == ['G', 'G', 'G', 'G'] and self.back_face == ['B', 'B', 'B', 'B'] and self.left_face == ['O', 'O', 'O', 'O'] and self.right_face == ['R', 'R', 'R', 'R'] and self.up_face == ['W', 'W', 'W', 'W'] and self.down_face == ['Y', 'Y', 'Y', 'Y']:
             return True
         else:
             return False
+            
 from queue import deque
 import sys
-def Charles():
+def Scramble():
+	fh = open('rubiks.csv', 'w+')
+	States = deque([])
+	n = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "O", "B"], ["W", "R", "B"], ["Y", "R", "B"], [])
+	moves = [lambda s: s.L(), lambda s: s.Linv(), lambda s: s.R(), lambda s: s.Rinv(), lambda s: s.U(), lambda s: s.Uinv(), lambda s: s.D(), lambda s: s.F(), lambda s: s.Finv(), lambda s: s.B(), lambda s: s.Binv()]
+	States.append(n)
+	for move in moves:
+		States.append(move(n))
+	States.popleft()
+	while True:
+	   state = States.popleft()
+	   for move in moves:
+	        t = move(state)
+	        print(t.moves)
+	        States.append(t)
+	   isSolved = Solve_CTruscottWatters([state.tlf, state.blf, state.trf, state.brf, state.tlb, state.blb, state.trb, state.brb])
+	   print("Initial State: Front Face: {}, Left Face: {}, Right Face:{} Back Face: {}, Up face: {}, Down face: {}\n".format(state.front_face, state.left_face, state.right_face, state.back_face, state.up_face, state.down_face))
+	   print("Moves to solve: {}".format(isSolved))
+	   fh.write("Initial State:\nFront Face: {}\nLeft Face: {}\nRight Face: {}\nBack Face: {}\nUp Face: {}\nDown Face:{}".format(state.front_face, state.left_face, state.right_face, state.back_face, state.up_face, state.down_face))
+	   fh.write(",")
+	   fh.write("{}".format(isSolved))
+	   fh.write(",")
+	   fh.write("{}".format(state.moves))
+	   fh.write(",")
+	   fh.write("[{}  {}, {}, {}, {}, {}, {}, {}]".format(state.tlf, state.blf, state.trf, state.blf, state.tlb, state.blb, state.trb, state.brb))
+	   fh.write("\n")
+def Solve_CTruscottWatters(inputState):
     States = deque([])
 #    n = RubiksState(['O', 'B', 'Y'], ['R', 'B', 'Y', ], ['O', 'G', 'Y'], ['R', 'G', 'Y'], ['O', 'B', 'W'], ['R', 'B', 'W'], ['O', 'G', 'W'], ['R', 'G', 'W'], [])
     all_states = [n for n in itertools.permutations([['G', 'G', 'G', 'G'], ['B', 'B', 'B', 'B'], ['O', 'O', 'O', 'O'], ['R', 'R', 'R', 'R'], ['W', 'W', 'W', 'W'], ['Y', 'Y', 'Y', 'Y']])]
-    n = RubiksState(["W", "O", "G"], ["G", "W", "R"],  ["G", "R", "Y"], ["O", "W", "B"], ["B", "Y", "R"], ["Y", "G", "O"], ["O", "B", "Y"], ["B", "R", "W"], [])
+    n = RubiksState(inputState[0], inputState[1], inputState[2], inputState[3], inputState[4], inputState[5], inputState[6], inputState[7], [])
 #    n = RubiksState(["W", "O", "G"], ["B", "Y", "R"],  ["W", "B", "R"], ["Y", "R", "G"], ["R", "G", "W"], ["Y", "G", "O"], ["W", "B", "O"], ["Y", "B", "O"], [])
     initial_state = n.orientation
 #    print(all_states)
@@ -320,9 +346,9 @@ def Charles():
 
             solved = True
 
-            print("Initial State:\nFront Face: {}\nLeft Face: {}\nRight Face: {}\nBack Face: {}\nUp Face: {}\nDown Face:{}".format(n.front_face, n.left_face, n.right_face, n.back_face, n.up_face, n.down_face))
+#            print("Initial State:\nFront Face: {}\nLeft Face: {}\nRight Face: {}\nBack Face: {}\nUp Face: {}\nDown Face:{}".format(n.front_face, n.left_face, n.right_face, n.back_face, n.up_face, n.down_face))
 
-            print("Solved State: Front Face: {}, Left Face: {}, Right Face:{} Back Face: {}, Up face: {}, Down face: {}\n".format(state.front_face, state.left_face, state.right_face, state.back_face, state.up_face, state.down_face))
+#            print("Solved State: Front Face: {}, Left Face: {}, Right Face:{} Back Face: {}, Up face: {}, Down face: {}\n".format(state.front_face, state.left_face, state.right_face, state.back_face, state.up_face, state.down_face))
 
             print("********")
 
@@ -331,14 +357,14 @@ def Charles():
             print("*******")
 
             print("Charles Truscott Watters, Byron Bay NSW 2481")
-
+            return state.moves
         if state.is_solved() == True:
 
             solved = True
-
-            print("Initial State:\nFront Face: {}\nLeft Face: {}\nRight Face: {}\nBack Face: {}\nUp Face: {}\nDown Face:{}".format(n.front_face, n.left_face, n.right_face, n.back_face, n.up_face, n.down_face))
-            print("Solved State: Front Face: {}, Left Face: {}, Right Face:{} Back Face: {}, Up face: {}, Down face: {}\n".format(state.front_face, state.left_face, state.right_face, state.back_face, state.up_face, state.down_face))
+            return state.moves
+#            print("Initial State:\nFront Face: {}\nLeft Face: {}\nRight Face: {}\nBack Face: {}\nUp Face: {}\nDown Face:{}".format(n.front_face, n.left_face, n.right_face, n.back_face, n.up_face, n.down_face))
+#            print("Solved State: Front Face: {}, Left Face: {}, Right Face:{} Back Face: {}, Up face: {}, Down face: {}\n".format(state.front_face, state.left_face, state.right_face, state.back_face, state.up_face, state.down_face))
 
    
-Charles()
+Scramble()
 
