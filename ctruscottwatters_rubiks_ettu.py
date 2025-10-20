@@ -375,10 +375,14 @@ def ct():
 	for line in fh.readlines():
 		cubeState = line.split("|")[0].strip("|")
 		print("Cube State: {}".format(cubeState))
-#		print(cubeState)
-		print("givenState == cubeState: {}".format(givenState == cubeState))
+		print(cubeState)
 		movesScramble = line.split("|")[1].strip("|")
 		print(movesScramble)
 		movesSolve = line.split("|")[2].strip("|")
 		print(movesSolve)
+		if givenState == cubeState:
+			print("givenState == cubeState: {}".format(givenState == cubeState))
+			print("Given State: {}, Moves to Solve: {}".format(givenState, movesSolve))
+			break
+
 ct()
