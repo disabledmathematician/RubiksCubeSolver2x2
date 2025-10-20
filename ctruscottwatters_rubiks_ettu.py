@@ -309,7 +309,7 @@ def Scramble():
 	   print("Initial State: Front Face: {}, Left Face: {}, Right Face:{} Back Face: {}, Up face: {}, Down face: {}\n".format(state.front_face, state.left_face, state.right_face, state.back_face, state.up_face, state.down_face))
 #	   print("Moves to solve: {}".format(isSolved))
 #	   fh.write("Initial State:\nFront Face: {}\nLeft Face: {}\nRight Face: {}\nBack Face: {}\nUp Face: {}\nDown Face:{}".format(state.front_face, state.left_face, state.right_face, state.back_face, state.up_face, state.down_face))
-	   fh.write("{}, {}, {}, {}, {}, {}, {}, {}".format(state.tlf, state.blf, state.trf, state.blf, state.tlb, state.blb, state.trb, state.brb))
+	   fh.write("{}, {}, {}, {}, {}, {}, {}, {}".format(state.tlf, state.blf, state.trf, state.brf, state.tlb, state.blb, state.trb, state.brb))
 	   fh.write("|")
 	   fh.write("{}".format(state.moves))
 	   fh.write("|")
@@ -367,7 +367,9 @@ def Solve_CTruscottWatters(inputState):
 #Scramble()
 
 def ct():
-		n = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "O", "B"], ["W", "R", "B"], ["Y", "R", "B"], [])
+	n = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "O", "B"], ["W", "R", "B"], ["Y", "R", "B"], [])
+	n = n.Linv()
+	givenState = "{}, {}, {}, {}, {}, {}, {}, {}".format(n.tlf, n.blf, n.trf, n.brf, n.tlb, n.blb, n.trb, n.brb)
 	fh = open('rubiks.csv')
 	for line in fh.readlines():
 		cubeState = line.split("|")[0].strip("|")
