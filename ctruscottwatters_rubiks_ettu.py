@@ -281,13 +281,10 @@ class RubiksState(object):
         return n
     def is_solved(self):
         if self.blb == ['Y', 'O', 'B'] and self.tlb == ['W', 'O', 'B'] and self.brb == ['Y', 'R', 'B'] and self.trb == ['W', 'R', 'B'] and self.blf == ['Y', 'O', 'G'] and self.tlf == ['W', 'O', 'G'] and self.brf == ['Y', 'R', 'G'] and self.trf == ['W', 'R', 'G']:
-            print('Solved: {}'.format(self.moves))
-            print("{}".format(self.orientation))
+            return True
 #            exit(1)
         if self.front_face == ['G', 'G', 'G', 'G'] and self.back_face == ['B', 'B', 'B', 'B'] and self.left_face == ['O', 'O', 'O', 'O'] and self.right_face == ['R', 'R', 'R', 'R'] and self.up_face == ['W', 'W', 'W', 'W'] and self.down_face == ['Y', 'Y', 'Y', 'Y']:
             return True
-        else:
-            return False
             
 from queue import deque
 import sys
@@ -297,18 +294,20 @@ def Scramble():
 	n = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "O", "B"], ["W", "R", "B"], ["Y", "R", "B"], [])
 	moves = [lambda s: s.L(), lambda s: s.Linv(), lambda s: s.R(), lambda s: s.Rinv(), lambda s: s.U(), lambda s: s.Uinv(), lambda s: s.D(), lambda s: s.F(), lambda s: s.Finv(), lambda s: s.B(), lambda s: s.Binv()]
 	States.append(n)
-	for move in moves:
-		States.append(move(n))
+#	for move in moves:
+#		States.append(move(n))
 	while True:
 	   state = States.popleft()
+	   print("Scrambling solved cube with: {}".format(state.moves))
 	   for move in moves:
 	        t = move(state)
-	        #print(t.moves)
+#	        print("Scrambling solved cube with: {}".format(t.moves))
 	        States.append(t)
 	   isSolved = Solve_CTruscottWatters([state.tlf, state.blf, state.trf, state.brf, state.tlb, state.blb, state.trb, state.brb])
-	   print("Initial State: Front Face: {}, Left Face: {}, Right Face:{} Back Face: {}, Up face: {}, Down face: {}\n".format(state.front_face, state.left_face, state.right_face, state.back_face, state.up_face, state.down_face))
-#	   print("Moves to solve: {}".format(isSolved))
-#	   fh.write("Initial State:\nFront Face: {}\nLeft Face: {}\nRight Face: {}\nBack Face: {}\nUp Face: {}\nDown Face:{}".format(state.front_face, state.left_face, state.right_face, state.back_face, state.up_face, state.down_face))
+	   print("{}, {}, {}, {}, {}, {}, {}, {}".format(state.tlf, state.blf, state.trf, state.brf, state.tlb, state.blb, state.trb, state.brb))
+	   fh.write("Moves that have scrambled the cube: {}".format(state.moves))
+	   fh.write("Moves that solve the cube: {}".format(isSolved))
+	   fh.write("\n")
 	   fh.write("{}, {}, {}, {}, {}, {}, {}, {}".format(state.tlf, state.blf, state.trf, state.brf, state.tlb, state.blb, state.trb, state.brb))
 	   fh.write("|")
 	   fh.write("{}".format(state.moves))
@@ -319,10 +318,10 @@ def Scramble():
 def Solve_CTruscottWatters(inputState):
     States = deque([])
 #    n = RubiksState(['O', 'B', 'Y'], ['R', 'B', 'Y', ], ['O', 'G', 'Y'], ['R', 'G', 'Y'], ['O', 'B', 'W'], ['R', 'B', 'W'], ['O', 'G', 'W'], ['R', 'G', 'W'], [])
-    all_states = [n for n in itertools.permutations([['G', 'G', 'G', 'G'], ['B', 'B', 'B', 'B'], ['O', 'O', 'O', 'O'], ['R', 'R', 'R', 'R'], ['W', 'W', 'W', 'W'], ['Y', 'Y', 'Y', 'Y']])]
+#    all_states = [n for n in itertools.permutations([['G', 'G', 'G', 'G'], ['B', 'B', 'B', 'B'], ['O', 'O', 'O', 'O'], ['R', 'R', 'R', 'R'], ['W', 'W', 'W', 'W'], ['Y', 'Y', 'Y', 'Y']])]
     n = RubiksState(inputState[0], inputState[1], inputState[2], inputState[3], inputState[4], inputState[5], inputState[6], inputState[7], [])
 #    n = RubiksState(["W", "O", "G"], ["B", "Y", "R"],  ["W", "B", "R"], ["Y", "R", "G"], ["R", "G", "W"], ["Y", "G", "O"], ["W", "B", "O"], ["Y", "B", "O"], [])
-    initial_state = n.orientation
+#    initial_state = n.orientation
 #    print(all_states)
 #    sys.exit(1)
     #tlf, blf, trf, brf, tlb, blb, trb, brb, moves
@@ -337,38 +336,24 @@ def Solve_CTruscottWatters(inputState):
 
             t = move(state)
 
-            #print(t.moves)
+#            print(t.moves)
 
             States.append(t)
 
-        if state.orientation in all_states:
-
-            solved = True
-
-#            print("Initial State:\nFront Face: {}\nLeft Face: {}\nRight Face: {}\nBack Face: {}\nUp Face: {}\nDown Face:{}".format(n.front_face, n.left_face, n.right_face, n.back_face, n.up_face, n.down_face))
-
-#            print("Solved State: Front Face: {}, Left Face: {}, Right Face:{} Back Face: {}, Up face: {}, Down face: {}\n".format(state.front_face, state.left_face, state.right_face, state.back_face, state.up_face, state.down_face))
-
-            print("********")
-
-            print("Moves: {}".format(state.moves))
-
-            print("*******")
-
-            print("Charles Truscott Watters, Byron Bay NSW 2481")
-            return state.moves
         if state.is_solved() == True:
-
-            solved = True
-            return state.moves
+        	print("*** SOLVED ***")
+        	print("Moves to solve: {}".format(state.moves))
+        	solved = True
+        	return state.moves
 #            print("Initial State:\nFront Face: {}\nLeft Face: {}\nRight Face: {}\nBack Face: {}\nUp Face: {}\nDown Face:{}".format(n.front_face, n.left_face, n.right_face, n.back_face, n.up_face, n.down_face))
 #            print("Solved State: Front Face: {}, Left Face: {}, Right Face:{} Back Face: {}, Up face: {}, Down face: {}\n".format(state.front_face, state.left_face, state.right_face, state.back_face, state.up_face, state.down_face))
 
-#Scramble()
+Scramble()
 
 def ct():
-	n = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "O", "B"], ["W", "R", "B"], ["Y", "R", "B"], [])
-	n = n.Linv()
+#	n = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "O", "B"], ["W", "R", "B"], ["Y", "R", "B"], [])
+#	n = n.Linv()
+	n = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "B", "R"], ["W", "R", "B"], ["Y", "B", "O"], [])
 	givenState = "{}, {}, {}, {}, {}, {}, {}, {}".format(n.tlf, n.blf, n.trf, n.brf, n.tlb, n.blb, n.trb, n.brb)
 	print("Given State: {}".format(givenState))
 	fh = open('rubiks.csv')
@@ -384,5 +369,10 @@ def ct():
 			print("givenState == cubeState: {}".format(givenState == cubeState))
 			print("Given State: {}, Moves to Solve: {}".format(givenState, movesSolve))
 			break
+			exit(1)
 
 #ct()
+def main():
+	state = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "B", "R"], ["W", "R", "B"], ["Y", "B", "O"], [])
+	Solve_CTruscottWatters([state.tlf, state.blf, state.trf, state.brf, state.tlb, state.blb, state.trb, state.brb])
+#main()
