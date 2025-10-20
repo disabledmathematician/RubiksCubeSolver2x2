@@ -385,4 +385,4 @@ def ct():
 			print("Given State: {}, Moves to Solve: {}".format(givenState, movesSolve))
 			break
 
-ct()
+#ct()
