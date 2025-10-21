@@ -347,7 +347,7 @@ def Solve_CTruscottWatters(inputState):
 #            print("Initial State:\nFront Face: {}\nLeft Face: {}\nRight Face: {}\nBack Face: {}\nUp Face: {}\nDown Face:{}".format(n.front_face, n.left_face, n.right_face, n.back_face, n.up_face, n.down_face))
 #            print("Solved State: Front Face: {}, Left Face: {}, Right Face:{} Back Face: {}, Up face: {}, Down face: {}\n".format(state.front_face, state.left_face, state.right_face, state.back_face, state.up_face, state.down_face))
 
-Scramble()
+#Scramble()
 
 def ct():
 #	n = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "O", "B"], ["W", "R", "B"], ["Y", "R", "B"], [])
@@ -368,7 +368,8 @@ def ct():
 			print("givenState == cubeState: {}".format(givenState == cubeState))
 			print("Given State: {}, Moves to Solve: {}".format(givenState, movesSolve))
 			break
-#ct()
+			quit(1)
+ct()
 def main():
 	state = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "B", "R"], ["W", "R", "B"], ["Y", "B", "O"], [])
 	Solve_CTruscottWatters([state.tlf, state.blf, state.trf, state.brf, state.tlb, state.blb, state.trb, state.brb])
