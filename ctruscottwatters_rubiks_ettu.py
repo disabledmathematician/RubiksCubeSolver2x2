@@ -352,7 +352,7 @@ def Solve_CTruscottWatters(inputState):
 def ct():
 #	n = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "O", "B"], ["W", "R", "B"], ["Y", "R", "B"], [])
 #	n = n.Linv()
-	n = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "B", "R"], ["W", "R", "B"], ["Y", "B", "O"], [])
+	n = RubiksState(["O", "W", "B"], ["Y", "O", "G"],  ["G", "O", "W"], ["R", "Y", "B"], ["W", "R", "G"], ["Y", "O", "B"], ["Y", "R", "G"], ["W", "B", "R"], [])
 	givenState = "{}, {}, {}, {}, {}, {}, {}, {}".format(n.tlf, n.blf, n.trf, n.brf, n.tlb, n.blb, n.trb, n.brb)
 	print("Given State: {}".format(givenState))
 	fh = open('rubiks.csv')
