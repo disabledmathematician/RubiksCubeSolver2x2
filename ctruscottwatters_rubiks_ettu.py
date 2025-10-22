@@ -346,13 +346,19 @@ def Solve_CTruscottWatters(inputState):
             	return t.moves
 #            print("Initial State:\nFront Face: {}\nLeft Face: {}\nRight Face: {}\nBack Face: {}\nUp Face: {}\nDown Face:{}".format(n.front_face, n.left_face, n.right_face, n.back_face, n.up_face, n.down_face))
 #            print("Solved State: Front Face: {}, Left Face: {}, Right Face:{} Back Face: {}, Up face: {}, Down face: {}\n".format(state.front_face, state.left_face, state.right_face, state.back_face, state.up_face, state.down_face))
-
+import itertools
 #Scramble()
-
-def ct():
+def Instantiate():
+	state = RubiksState(["W", "O", "G"], ["Y", "G", "R"],  ["W", "R", "G"], ["Y", "G", "O"], ["W", "O", "B"], ["Y", "O", "B"], ["W", "R", "B"], ["Y", "R", "B"], [])
+	L = [state.tlf, state.blf, state.trf, state.brf, state.tlb, state.blb, state.trb, state.brb]
+	for elem in itertools.permutations(L):
+		Solve(elem[0], elem[1], elem[2], elem[3], elem[4], elem[5], elem[6], elem[7])
+	pass
+	
+def Solve(tlf, blf, trf, brf, tlb, blb, trb, brb):
 #	n = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "O", "B"], ["W", "R", "B"], ["Y", "R", "B"], [])
 #	n = n.Linv()
-	n = RubiksState(["O", "W", "B"], ["Y", "O", "G"],  ["G", "O", "W"], ["R", "Y", "B"], ["W", "R", "G"], ["Y", "O", "B"], ["Y", "R", "G"], ["W", "B", "R"], [])
+	n = RubiksState(tlf, blf,  trf, brf, tlb, blb, trb, brb, [])
 	givenState = "{}, {}, {}, {}, {}, {}, {}, {}".format(n.tlf, n.blf, n.trf, n.brf, n.tlb, n.blb, n.trb, n.brb)
 	print("Given State: {}".format(givenState))
 	fh = open('rubiks.csv')
@@ -369,8 +375,9 @@ def ct():
 			print("Given State: {}, Moves to Solve: {}".format(givenState, movesSolve))
 			break
 			quit(1)
-ct()
+
 def main():
 	state = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "B", "R"], ["W", "R", "B"], ["Y", "B", "O"], [])
 	Solve_CTruscottWatters([state.tlf, state.blf, state.trf, state.brf, state.tlb, state.blb, state.trb, state.brb])
-#main()
+main()
+#Instantiate()
