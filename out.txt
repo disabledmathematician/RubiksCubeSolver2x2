@@ -1,0 +1,1255 @@
+Found
+Move: ['L'], Moves Solve: ['L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse'], Moves Solve: ['L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R'], Moves Solve: ['R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R inverse'], Moves Solve: ['R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U'], Moves Solve: ['U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U inverse'], Moves Solve: ['U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D'], Moves Solve: ['D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D inverse'], Moves Solve: ['D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F'], Moves Solve: ['F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F inverse'], Moves Solve: ['F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B'], Moves Solve: ['B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B inverse'], Moves Solve: ['B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L'], Moves Solve: ['L', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L inverse'], Moves Solve: ['L', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R'], Moves Solve: ['L', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R inverse'], Moves Solve: ['L', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U'], Moves Solve: ['L', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U inverse'], Moves Solve: ['L', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D'], Moves Solve: ['L', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D inverse'], Moves Solve: ['L', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F'], Moves Solve: ['L', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F inverse'], Moves Solve: ['L', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B'], Moves Solve: ['L', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B inverse'], Moves Solve: ['L', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L'], Moves Solve: ['L inverse', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L inverse'], Moves Solve: ['L inverse', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'R'], Moves Solve: ['L inverse', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'R inverse'], Moves Solve: ['L inverse', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'U'], Moves Solve: ['L inverse', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'U inverse'], Moves Solve: ['L inverse', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'D'], Moves Solve: ['L inverse', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'D inverse'], Moves Solve: ['L inverse', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'F'], Moves Solve: ['L inverse', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'F inverse'], Moves Solve: ['L inverse', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'B'], Moves Solve: ['L inverse', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'B inverse'], Moves Solve: ['L inverse', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R', 'L'], Moves Solve: ['R', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R', 'L inverse'], Moves Solve: ['R', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R', 'R'], Moves Solve: ['R', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R', 'R inverse'], Moves Solve: ['R', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R', 'U'], Moves Solve: ['R', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R', 'U inverse'], Moves Solve: ['R', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R', 'D'], Moves Solve: ['R', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R', 'D inverse'], Moves Solve: ['R', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R', 'F'], Moves Solve: ['R', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R', 'F inverse'], Moves Solve: ['R', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R', 'B'], Moves Solve: ['R', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R', 'B inverse'], Moves Solve: ['R', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R inverse', 'L'], Moves Solve: ['R inverse', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R inverse', 'L inverse'], Moves Solve: ['R inverse', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R inverse', 'R'], Moves Solve: ['R inverse', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R inverse', 'R inverse'], Moves Solve: ['R inverse', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R inverse', 'U'], Moves Solve: ['R inverse', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R inverse', 'U inverse'], Moves Solve: ['R inverse', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R inverse', 'D'], Moves Solve: ['R inverse', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R inverse', 'D inverse'], Moves Solve: ['R inverse', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R inverse', 'F'], Moves Solve: ['R inverse', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R inverse', 'F inverse'], Moves Solve: ['R inverse', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R inverse', 'B'], Moves Solve: ['R inverse', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['R inverse', 'B inverse'], Moves Solve: ['R inverse', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U', 'L'], Moves Solve: ['U', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U', 'L inverse'], Moves Solve: ['U', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U', 'R'], Moves Solve: ['U', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U', 'R inverse'], Moves Solve: ['U', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U', 'U'], Moves Solve: ['U', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U', 'U inverse'], Moves Solve: ['U', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U', 'D'], Moves Solve: ['U', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U', 'D inverse'], Moves Solve: ['U', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U', 'F'], Moves Solve: ['U', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U', 'F inverse'], Moves Solve: ['U', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U', 'B'], Moves Solve: ['U', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U', 'B inverse'], Moves Solve: ['U', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U inverse', 'L'], Moves Solve: ['U inverse', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U inverse', 'L inverse'], Moves Solve: ['U inverse', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U inverse', 'R'], Moves Solve: ['U inverse', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U inverse', 'R inverse'], Moves Solve: ['U inverse', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U inverse', 'U'], Moves Solve: ['U inverse', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U inverse', 'U inverse'], Moves Solve: ['U inverse', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U inverse', 'D'], Moves Solve: ['U inverse', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U inverse', 'D inverse'], Moves Solve: ['U inverse', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U inverse', 'F'], Moves Solve: ['U inverse', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U inverse', 'F inverse'], Moves Solve: ['U inverse', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U inverse', 'B'], Moves Solve: ['U inverse', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['U inverse', 'B inverse'], Moves Solve: ['U inverse', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D', 'L'], Moves Solve: ['D', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D', 'L inverse'], Moves Solve: ['D', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D', 'R'], Moves Solve: ['D', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D', 'R inverse'], Moves Solve: ['D', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D', 'U'], Moves Solve: ['D', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D', 'U inverse'], Moves Solve: ['D', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D', 'D'], Moves Solve: ['D', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D', 'D inverse'], Moves Solve: ['D', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D', 'F'], Moves Solve: ['D', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D', 'F inverse'], Moves Solve: ['D', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D', 'B'], Moves Solve: ['D', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D', 'B inverse'], Moves Solve: ['D', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D inverse', 'L'], Moves Solve: ['D inverse', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D inverse', 'L inverse'], Moves Solve: ['D inverse', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D inverse', 'R'], Moves Solve: ['D inverse', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D inverse', 'R inverse'], Moves Solve: ['D inverse', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D inverse', 'U'], Moves Solve: ['D inverse', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D inverse', 'U inverse'], Moves Solve: ['D inverse', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D inverse', 'D'], Moves Solve: ['D inverse', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D inverse', 'D inverse'], Moves Solve: ['D inverse', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D inverse', 'F'], Moves Solve: ['D inverse', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D inverse', 'F inverse'], Moves Solve: ['D inverse', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D inverse', 'B'], Moves Solve: ['D inverse', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['D inverse', 'B inverse'], Moves Solve: ['D inverse', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F', 'L'], Moves Solve: ['F', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F', 'L inverse'], Moves Solve: ['F', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F', 'R'], Moves Solve: ['F', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F', 'R inverse'], Moves Solve: ['F', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F', 'U'], Moves Solve: ['F', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F', 'U inverse'], Moves Solve: ['F', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F', 'D'], Moves Solve: ['F', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F', 'D inverse'], Moves Solve: ['F', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F', 'F'], Moves Solve: ['F', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F', 'F inverse'], Moves Solve: ['F', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F', 'B'], Moves Solve: ['F', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F', 'B inverse'], Moves Solve: ['F', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F inverse', 'L'], Moves Solve: ['F inverse', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F inverse', 'L inverse'], Moves Solve: ['F inverse', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F inverse', 'R'], Moves Solve: ['F inverse', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F inverse', 'R inverse'], Moves Solve: ['F inverse', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F inverse', 'U'], Moves Solve: ['F inverse', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F inverse', 'U inverse'], Moves Solve: ['F inverse', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F inverse', 'D'], Moves Solve: ['F inverse', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F inverse', 'D inverse'], Moves Solve: ['F inverse', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F inverse', 'F'], Moves Solve: ['F inverse', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F inverse', 'F inverse'], Moves Solve: ['F inverse', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F inverse', 'B'], Moves Solve: ['F inverse', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['F inverse', 'B inverse'], Moves Solve: ['F inverse', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B', 'L'], Moves Solve: ['B', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B', 'L inverse'], Moves Solve: ['B', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B', 'R'], Moves Solve: ['B', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B', 'R inverse'], Moves Solve: ['B', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B', 'U'], Moves Solve: ['B', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B', 'U inverse'], Moves Solve: ['B', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B', 'D'], Moves Solve: ['B', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B', 'D inverse'], Moves Solve: ['B', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B', 'F'], Moves Solve: ['B', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B', 'F inverse'], Moves Solve: ['B', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B', 'B'], Moves Solve: ['B', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B', 'B inverse'], Moves Solve: ['B', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B inverse', 'L'], Moves Solve: ['B inverse', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B inverse', 'L inverse'], Moves Solve: ['B inverse', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B inverse', 'R'], Moves Solve: ['B inverse', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B inverse', 'R inverse'], Moves Solve: ['B inverse', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B inverse', 'U'], Moves Solve: ['B inverse', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B inverse', 'U inverse'], Moves Solve: ['B inverse', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B inverse', 'D'], Moves Solve: ['B inverse', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B inverse', 'D inverse'], Moves Solve: ['B inverse', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B inverse', 'F'], Moves Solve: ['B inverse', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B inverse', 'F inverse'], Moves Solve: ['B inverse', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B inverse', 'B'], Moves Solve: ['B inverse', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['B inverse', 'B inverse'], Moves Solve: ['B inverse', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L', 'L'], Moves Solve: ['L', 'L', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L', 'L inverse'], Moves Solve: ['L', 'L', 'L inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L', 'R'], Moves Solve: ['L', 'L', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L', 'R inverse'], Moves Solve: ['L', 'L', 'R inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L', 'U'], Moves Solve: ['L', 'L', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L', 'U inverse'], Moves Solve: ['L', 'L', 'U inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L', 'D'], Moves Solve: ['L', 'L', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L', 'D inverse'], Moves Solve: ['L', 'L', 'D inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L', 'F'], Moves Solve: ['L', 'L', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L', 'F inverse'], Moves Solve: ['L', 'L', 'F inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L', 'B'], Moves Solve: ['L', 'L', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L', 'B inverse'], Moves Solve: ['L', 'L', 'B inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L inverse', 'L'], Moves Solve: ['L', 'L inverse', 'L']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L inverse', 'L inverse'], Moves Solve: ['L', 'L inverse', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L inverse', 'R'], Moves Solve: ['L', 'L inverse', 'R']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L inverse', 'R inverse'], Moves Solve: ['L', 'L inverse', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L inverse', 'U'], Moves Solve: ['L', 'L inverse', 'U']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L inverse', 'U inverse'], Moves Solve: ['L', 'L inverse', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L inverse', 'D'], Moves Solve: ['L', 'L inverse', 'D']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L inverse', 'D inverse'], Moves Solve: ['L', 'L inverse', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L inverse', 'F'], Moves Solve: ['L', 'L inverse', 'F']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L inverse', 'F inverse'], Moves Solve: ['L', 'L inverse', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L inverse', 'B'], Moves Solve: ['L', 'L inverse', 'B']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'L inverse', 'B inverse'], Moves Solve: ['L', 'L inverse', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R', 'L'], Moves Solve: ['L', 'R', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R', 'L inverse'], Moves Solve: ['L', 'R', 'L inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R', 'R'], Moves Solve: ['L', 'R', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R', 'R inverse'], Moves Solve: ['L', 'R', 'R inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R', 'U'], Moves Solve: ['L', 'R', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R', 'U inverse'], Moves Solve: ['L', 'R', 'U inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R', 'D'], Moves Solve: ['L', 'R', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R', 'D inverse'], Moves Solve: ['L', 'R', 'D inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R', 'F'], Moves Solve: ['L', 'R', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R', 'F inverse'], Moves Solve: ['L', 'R', 'F inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R', 'B'], Moves Solve: ['L', 'R', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R', 'B inverse'], Moves Solve: ['L', 'R', 'B inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R inverse', 'L'], Moves Solve: ['L', 'R inverse', 'L']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R inverse', 'L inverse'], Moves Solve: ['L', 'R inverse', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R inverse', 'R'], Moves Solve: ['L', 'R inverse', 'R']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R inverse', 'R inverse'], Moves Solve: ['L', 'R inverse', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R inverse', 'U'], Moves Solve: ['L', 'R inverse', 'U']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R inverse', 'U inverse'], Moves Solve: ['L', 'R inverse', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R inverse', 'D'], Moves Solve: ['L', 'R inverse', 'D']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R inverse', 'D inverse'], Moves Solve: ['L', 'R inverse', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R inverse', 'F'], Moves Solve: ['L', 'R inverse', 'F']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R inverse', 'F inverse'], Moves Solve: ['L', 'R inverse', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R inverse', 'B'], Moves Solve: ['L', 'R inverse', 'B']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'R inverse', 'B inverse'], Moves Solve: ['L', 'R inverse', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U', 'L'], Moves Solve: ['L', 'U', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U', 'L inverse'], Moves Solve: ['L', 'U', 'L inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U', 'R'], Moves Solve: ['L', 'U', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U', 'R inverse'], Moves Solve: ['L', 'U', 'R inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U', 'U'], Moves Solve: ['L', 'U', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U', 'U inverse'], Moves Solve: ['L', 'U', 'U inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U', 'D'], Moves Solve: ['L', 'U', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U', 'D inverse'], Moves Solve: ['L', 'U', 'D inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U', 'F'], Moves Solve: ['L', 'U', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U', 'F inverse'], Moves Solve: ['L', 'U', 'F inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U', 'B'], Moves Solve: ['L', 'U', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U', 'B inverse'], Moves Solve: ['L', 'U', 'B inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U inverse', 'L'], Moves Solve: ['L', 'U inverse', 'L']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U inverse', 'L inverse'], Moves Solve: ['L', 'U inverse', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U inverse', 'R'], Moves Solve: ['L', 'U inverse', 'R']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U inverse', 'R inverse'], Moves Solve: ['L', 'U inverse', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U inverse', 'U'], Moves Solve: ['L', 'U inverse', 'U']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U inverse', 'U inverse'], Moves Solve: ['L', 'U inverse', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U inverse', 'D'], Moves Solve: ['L', 'U inverse', 'D']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U inverse', 'D inverse'], Moves Solve: ['L', 'U inverse', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U inverse', 'F'], Moves Solve: ['L', 'U inverse', 'F']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U inverse', 'F inverse'], Moves Solve: ['L', 'U inverse', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U inverse', 'B'], Moves Solve: ['L', 'U inverse', 'B']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'U inverse', 'B inverse'], Moves Solve: ['L', 'U inverse', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D', 'L'], Moves Solve: ['L', 'D', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D', 'L inverse'], Moves Solve: ['L', 'D', 'L inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D', 'R'], Moves Solve: ['L', 'D', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D', 'R inverse'], Moves Solve: ['L', 'D', 'R inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D', 'U'], Moves Solve: ['L', 'D', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D', 'U inverse'], Moves Solve: ['L', 'D', 'U inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D', 'D'], Moves Solve: ['L', 'D', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D', 'D inverse'], Moves Solve: ['L', 'D', 'D inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D', 'F'], Moves Solve: ['L', 'D', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D', 'F inverse'], Moves Solve: ['L', 'D', 'F inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D', 'B'], Moves Solve: ['L', 'D', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D', 'B inverse'], Moves Solve: ['L', 'D', 'B inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D inverse', 'L'], Moves Solve: ['L', 'D inverse', 'L']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D inverse', 'L inverse'], Moves Solve: ['L', 'D inverse', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D inverse', 'R'], Moves Solve: ['L', 'D inverse', 'R']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D inverse', 'R inverse'], Moves Solve: ['L', 'D inverse', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D inverse', 'U'], Moves Solve: ['L', 'D inverse', 'U']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D inverse', 'U inverse'], Moves Solve: ['L', 'D inverse', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D inverse', 'D'], Moves Solve: ['L', 'D inverse', 'D']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D inverse', 'D inverse'], Moves Solve: ['L', 'D inverse', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D inverse', 'F'], Moves Solve: ['L', 'D inverse', 'F']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D inverse', 'F inverse'], Moves Solve: ['L', 'D inverse', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D inverse', 'B'], Moves Solve: ['L', 'D inverse', 'B']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'D inverse', 'B inverse'], Moves Solve: ['L', 'D inverse', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F', 'L'], Moves Solve: ['L', 'F', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F', 'L inverse'], Moves Solve: ['L', 'F', 'L inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F', 'R'], Moves Solve: ['L', 'F', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F', 'R inverse'], Moves Solve: ['L', 'F', 'R inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F', 'U'], Moves Solve: ['L', 'F', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F', 'U inverse'], Moves Solve: ['L', 'F', 'U inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F', 'D'], Moves Solve: ['L', 'F', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F', 'D inverse'], Moves Solve: ['L', 'F', 'D inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F', 'F'], Moves Solve: ['L', 'F', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F', 'F inverse'], Moves Solve: ['L', 'F', 'F inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F', 'B'], Moves Solve: ['L', 'F', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F', 'B inverse'], Moves Solve: ['L', 'F', 'B inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F inverse', 'L'], Moves Solve: ['L', 'F inverse', 'L']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F inverse', 'L inverse'], Moves Solve: ['L', 'F inverse', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F inverse', 'R'], Moves Solve: ['L', 'F inverse', 'R']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F inverse', 'R inverse'], Moves Solve: ['L', 'F inverse', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F inverse', 'U'], Moves Solve: ['L', 'F inverse', 'U']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F inverse', 'U inverse'], Moves Solve: ['L', 'F inverse', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F inverse', 'D'], Moves Solve: ['L', 'F inverse', 'D']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F inverse', 'D inverse'], Moves Solve: ['L', 'F inverse', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F inverse', 'F'], Moves Solve: ['L', 'F inverse', 'F']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F inverse', 'F inverse'], Moves Solve: ['L', 'F inverse', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F inverse', 'B'], Moves Solve: ['L', 'F inverse', 'B']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'F inverse', 'B inverse'], Moves Solve: ['L', 'F inverse', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B', 'L'], Moves Solve: ['L', 'B', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B', 'L inverse'], Moves Solve: ['L', 'B', 'L inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B', 'R'], Moves Solve: ['L', 'B', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B', 'R inverse'], Moves Solve: ['L', 'B', 'R inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B', 'U'], Moves Solve: ['L', 'B', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B', 'U inverse'], Moves Solve: ['L', 'B', 'U inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B', 'D'], Moves Solve: ['L', 'B', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B', 'D inverse'], Moves Solve: ['L', 'B', 'D inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B', 'F'], Moves Solve: ['L', 'B', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B', 'F inverse'], Moves Solve: ['L', 'B', 'F inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B', 'B'], Moves Solve: ['L', 'B', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B', 'B inverse'], Moves Solve: ['L', 'B', 'B inverse']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B inverse', 'L'], Moves Solve: ['L', 'B inverse', 'L']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B inverse', 'L inverse'], Moves Solve: ['L', 'B inverse', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B inverse', 'R'], Moves Solve: ['L', 'B inverse', 'R']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B inverse', 'R inverse'], Moves Solve: ['L', 'B inverse', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B inverse', 'U'], Moves Solve: ['L', 'B inverse', 'U']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B inverse', 'U inverse'], Moves Solve: ['L', 'B inverse', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B inverse', 'D'], Moves Solve: ['L', 'B inverse', 'D']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B inverse', 'D inverse'], Moves Solve: ['L', 'B inverse', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B inverse', 'F'], Moves Solve: ['L', 'B inverse', 'F']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B inverse', 'F inverse'], Moves Solve: ['L', 'B inverse', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B inverse', 'B'], Moves Solve: ['L', 'B inverse', 'B']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L', 'B inverse', 'B inverse'], Moves Solve: ['L', 'B inverse', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L', 'L'], Moves Solve: ['L inverse', 'L', 'L']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L', 'L inverse'], Moves Solve: ['L inverse', 'L', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L', 'R'], Moves Solve: ['L inverse', 'L', 'R']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L', 'R inverse'], Moves Solve: ['L inverse', 'L', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L', 'U'], Moves Solve: ['L inverse', 'L', 'U']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L', 'U inverse'], Moves Solve: ['L inverse', 'L', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L', 'D'], Moves Solve: ['L inverse', 'L', 'D']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L', 'D inverse'], Moves Solve: ['L inverse', 'L', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L', 'F'], Moves Solve: ['L inverse', 'L', 'F']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L', 'F inverse'], Moves Solve: ['L inverse', 'L', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L', 'B'], Moves Solve: ['L inverse', 'L', 'B']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L', 'B inverse'], Moves Solve: ['L inverse', 'L', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L inverse', 'L'], Moves Solve: ['L inverse', 'L inverse', 'L']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L inverse', 'L inverse'], Moves Solve: ['L inverse', 'L inverse', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L inverse', 'R'], Moves Solve: ['L inverse', 'L inverse', 'R']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L inverse', 'R inverse'], Moves Solve: ['L inverse', 'L inverse', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L inverse', 'U'], Moves Solve: ['L inverse', 'L inverse', 'U']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L inverse', 'U inverse'], Moves Solve: ['L inverse', 'L inverse', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L inverse', 'D'], Moves Solve: ['L inverse', 'L inverse', 'D']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L inverse', 'D inverse'], Moves Solve: ['L inverse', 'L inverse', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L inverse', 'F'], Moves Solve: ['L inverse', 'L inverse', 'F']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L inverse', 'F inverse'], Moves Solve: ['L inverse', 'L inverse', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L inverse', 'B'], Moves Solve: ['L inverse', 'L inverse', 'B']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'L inverse', 'B inverse'], Moves Solve: ['L inverse', 'L inverse', 'B inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'R', 'L'], Moves Solve: ['L inverse', 'R', 'L']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'R', 'L inverse'], Moves Solve: ['L inverse', 'R', 'L inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'R', 'R'], Moves Solve: ['L inverse', 'R', 'R']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'R', 'R inverse'], Moves Solve: ['L inverse', 'R', 'R inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'R', 'U'], Moves Solve: ['L inverse', 'R', 'U']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'R', 'U inverse'], Moves Solve: ['L inverse', 'R', 'U inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'R', 'D'], Moves Solve: ['L inverse', 'R', 'D']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'R', 'D inverse'], Moves Solve: ['L inverse', 'R', 'D inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'R', 'F'], Moves Solve: ['L inverse', 'R', 'F']Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'R', 'F inverse'], Moves Solve: ['L inverse', 'R', 'F inverse']
+Move eq MovesSolve: True
+Found entry
+Found
+Move: ['L inverse', 'R', 'B'], Moves Solve: ['L inverse', 'R', 'B']Move eq MovesSolve: True
