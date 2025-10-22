@@ -1,0 +1,192 @@
+Move: ['L'], Moves Solve: ['L']
+Move eq MovesSolve: True
+Found
+Already In
+Move: ['L inverse'], Moves Solve: ['L']
+Move eq MovesSolve: False
+Move: ['L inverse'], Moves Solve: ['L inverse']
+Move eq MovesSolve: True
+Found
+Already In
+Move: ['R'], Moves Solve: ['L']
+Move eq MovesSolve: False
+Move: ['R'], Moves Solve: ['L inverse']
+Move eq MovesSolve: False
+Move: ['R'], Moves Solve: ['R']
+Move eq MovesSolve: True
+Found
+Already In
+Move: ['R inverse'], Moves Solve: ['L']
+Move eq MovesSolve: False
+Move: ['R inverse'], Moves Solve: ['L inverse']
+Move eq MovesSolve: False
+Move: ['R inverse'], Moves Solve: ['R']
+Move eq MovesSolve: False
+Move: ['R inverse'], Moves Solve: ['R inverse']
+Move eq MovesSolve: True
+Found
+Already In
+Move: ['U'], Moves Solve: ['L']
+Move eq MovesSolve: False
+Move: ['U'], Moves Solve: ['L inverse']
+Move eq MovesSolve: False
+Move: ['U'], Moves Solve: ['R']
+Move eq MovesSolve: False
+Move: ['U'], Moves Solve: ['R inverse']
+Move eq MovesSolve: False
+Move: ['U'], Moves Solve: ['U']
+Move eq MovesSolve: True
+Found
+Already In
+Move: ['U inverse'], Moves Solve: ['L']
+Move eq MovesSolve: False
+Move: ['U inverse'], Moves Solve: ['L inverse']
+Move eq MovesSolve: False
+Move: ['U inverse'], Moves Solve: ['R']
+Move eq MovesSolve: False
+Move: ['U inverse'], Moves Solve: ['R inverse']
+Move eq MovesSolve: False
+Move: ['U inverse'], Moves Solve: ['U']
+Move eq MovesSolve: False
+Move: ['U inverse'], Moves Solve: ['U inverse']
+Move eq MovesSolve: True
+Found
+Already In
+Move: ['D'], Moves Solve: ['L']
+Move eq MovesSolve: False
+Move: ['D'], Moves Solve: ['L inverse']
+Move eq MovesSolve: False
+Move: ['D'], Moves Solve: ['R']
+Move eq MovesSolve: False
+Move: ['D'], Moves Solve: ['R inverse']
+Move eq MovesSolve: False
+Move: ['D'], Moves Solve: ['U']
+Move eq MovesSolve: False
+Move: ['D'], Moves Solve: ['U inverse']
+Move eq MovesSolve: False
+Move: ['D'], Moves Solve: ['D']
+Move eq MovesSolve: True
+Found
+Already In
+Move: ['D inverse'], Moves Solve: ['L']
+Move eq MovesSolve: False
+Move: ['D inverse'], Moves Solve: ['L inverse']
+Move eq MovesSolve: False
+Move: ['D inverse'], Moves Solve: ['R']
+Move eq MovesSolve: False
+Move: ['D inverse'], Moves Solve: ['R inverse']
+Move eq MovesSolve: False
+Move: ['D inverse'], Moves Solve: ['U']
+Move eq MovesSolve: False
+Move: ['D inverse'], Moves Solve: ['U inverse']
+Move eq MovesSolve: False
+Move: ['D inverse'], Moves Solve: ['D']
+Move eq MovesSolve: False
+Move: ['D inverse'], Moves Solve: ['D inverse']
+Move eq MovesSolve: True
+Found
+Already In
+Move: ['F'], Moves Solve: ['L']
+Move eq MovesSolve: False
+Move: ['F'], Moves Solve: ['L inverse']
+Move eq MovesSolve: False
+Move: ['F'], Moves Solve: ['R']
+Move eq MovesSolve: False
+Move: ['F'], Moves Solve: ['R inverse']
+Move eq MovesSolve: False
+Move: ['F'], Moves Solve: ['U']
+Move eq MovesSolve: False
+Move: ['F'], Moves Solve: ['U inverse']
+Move eq MovesSolve: False
+Move: ['F'], Moves Solve: ['D']
+Move eq MovesSolve: False
+Move: ['F'], Moves Solve: ['D inverse']
+Move eq MovesSolve: False
+Move: ['F'], Moves Solve: ['F']
+Move eq MovesSolve: True
+Found
+Already In
+Move: ['F inverse'], Moves Solve: ['L']
+Move eq MovesSolve: False
+Move: ['F inverse'], Moves Solve: ['L inverse']
+Move eq MovesSolve: False
+Move: ['F inverse'], Moves Solve: ['R']
+Move eq MovesSolve: False
+Move: ['F inverse'], Moves Solve: ['R inverse']
+Move eq MovesSolve: False
+Move: ['F inverse'], Moves Solve: ['U']
+Move eq MovesSolve: False
+Move: ['F inverse'], Moves Solve: ['U inverse']
+Move eq MovesSolve: False
+Move: ['F inverse'], Moves Solve: ['D']
+Move eq MovesSolve: False
+Move: ['F inverse'], Moves Solve: ['D inverse']
+Move eq MovesSolve: False
+Move: ['F inverse'], Moves Solve: ['F']
+Move eq MovesSolve: False
+Move: ['F inverse'], Moves Solve: ['F inverse']
+Move eq MovesSolve: True
+Found
+Already In
+Move: ['B'], Moves Solve: ['L']
+Move eq MovesSolve: False
+Move: ['B'], Moves Solve: ['L inverse']
+Move eq MovesSolve: False
+Move: ['B'], Moves Solve: ['R']
+Move eq MovesSolve: False
+Move: ['B'], Moves Solve: ['R inverse']
+Move eq MovesSolve: False
+Move: ['B'], Moves Solve: ['U']
+Move eq MovesSolve: False
+Move: ['B'], Moves Solve: ['U inverse']
+Move eq MovesSolve: False
+Move: ['B'], Moves Solve: ['D']
+Move eq MovesSolve: False
+Move: ['B'], Moves Solve: ['D inverse']
+Move eq MovesSolve: False
+Move: ['B'], Moves Solve: ['F']
+Move eq MovesSolve: False
+Move: ['B'], Moves Solve: ['F inverse']
+Move eq MovesSolve: False
+Move: ['B'], Moves Solve: ['B']
+Move eq MovesSolve: True
+Found
+Already In
+Move: ['B inverse'], Moves Solve: ['L']
+Move eq MovesSolve: False
+Move: ['B inverse'], Moves Solve: ['L inverse']
+Move eq MovesSolve: False
+Move: ['B inverse'], Moves Solve: ['R']
+Move eq MovesSolve: False
+Move: ['B inverse'], Moves Solve: ['R inverse']
+Move eq MovesSolve: False
+Move: ['B inverse'], Moves Solve: ['U']
+Move eq MovesSolve: False
+Move: ['B inverse'], Moves Solve: ['U inverse']
+Move eq MovesSolve: False
+Move: ['B inverse'], Moves Solve: ['D']
+Move eq MovesSolve: False
+Move: ['B inverse'], Moves Solve: ['D inverse']
+Move eq MovesSolve: False
+Move: ['B inverse'], Moves Solve: ['F']
+Move eq MovesSolve: False
+Move: ['B inverse'], Moves Solve: ['F inverse']
+Move eq MovesSolve: False
+Move: ['B inverse'], Moves Solve: ['B']
+Move eq MovesSolve: False
+Move: ['B inverse'], Moves Solve: ['B inverse']
+Move eq MovesSolve: True
+Found
+Already In
+Traceback (most recent call last):
+  File "/data/user/0/ru.iiec.pydroid3/files/accomp_files/iiec_run/iiec_run.py", line 31, in <module>
+    start(fakepyfile,mainpyfile)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/user/0/ru.iiec.pydroid3/files/accomp_files/iiec_run/iiec_run.py", line 30, in start
+    exec(open(mainpyfile).read(),  __main__.__dict__)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 369, in <module>
+  File "<string>", line 315, in Scramble
+IndexError: pop from an empty deque
+
+[Program finished]
