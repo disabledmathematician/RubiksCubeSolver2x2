@@ -270,9 +270,9 @@ def alreadyIn(move):
 		for line in fh.readlines():
 			movesSolve = ast.literal_eval(line.split("|")[1])
 			if move == movesSolve:
-				print("Found")
-				print("Move: {}, Moves Solve: {}".format(move, movesSolve))
-				print("Move eq MovesSolve: {}".format(move == movesSolve))
+	#			print("Found")
+	#			print("Move: {}, Moves Solve: {}".format(move, movesSolve))
+	#			print("Move eq MovesSolve: {}".format(move == movesSolve))
 				return True
 
 	except:
