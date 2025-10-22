@@ -279,6 +279,35 @@ def alreadyIn(move):
 		return False
 	return False
 
+def Solve_CTruscottWatters(inputState):
+    States = deque([])
+#    n = RubiksState(['O', 'B', 'Y'], ['R', 'B', 'Y', ], ['O', 'G', 'Y'], ['R', 'G', 'Y'], ['O', 'B', 'W'], ['R', 'B', 'W'], ['O', 'G', 'W'], ['R', 'G', 'W'], [])
+#    all_states = [n for n in itertools.permutations([['G', 'G', 'G', 'G'], ['B', 'B', 'B', 'B'], ['O', 'O', 'O', 'O'], ['R', 'R', 'R', 'R'], ['W', 'W', 'W', 'W'], ['Y', 'Y', 'Y', 'Y']])]
+    n = RubiksState(inputState[0], inputState[1], inputState[2], inputState[3], inputState[4], inputState[5], inputState[6], inputState[7], [])
+#    n = RubiksState(["W", "O", "G"], ["B", "Y", "R"],  ["W", "B", "R"], ["Y", "R", "G"], ["R", "G", "W"], ["Y", "G", "O"], ["W", "B", "O"], ["Y", "B", "O"], [])
+#    initial_state = n.orientation
+#    print(all_states)
+#    sys.exit(1)
+    #tlf, blf, trf, brf, tlb, blb, trb, brb, moves
+    moves = [lambda s: s.L(), lambda s: s.Linv(), lambda s: s.R(), lambda s: s.Rinv(), lambda s: s.U(), lambda s: s.Uinv(), lambda s: s.D(), lambda s: s.Dinv(), lambda s: s.F(), lambda s: s.Finv(), lambda s: s.B(), lambda s: s.Binv()]
+    States.append(n)
+    solved = False
+    while solved != True:
+
+        state = States.popleft()
+
+        for move in moves:
+
+            t = move(state)
+#            print(t.moves)
+
+            States.append(t)
+            if t.is_solved() == True:
+            	print("*** SOLVED ***")
+            	print("Moves to solve: {}".format(t.moves))
+            	solved = True
+            	return t.moves
+
 def Scramble():
 	fh = open('rubiks.csv', 'a')
 	States = deque([])
@@ -291,7 +320,23 @@ def Scramble():
 	   state = States.popleft()
 	   for move in moves:
 	        t = move(state)
-	        if alreadyIn(t.moves):
-	        	print("Found entry")
 	        States.append(t)
+	        if alreadyIn(t.moves):
+	        	print("No need to scramble with {}. Entry exists".format(t.moves))
+	        	continue
+	        else:
+	        	print("Scrambling solved cube with: {}".format(t.moves))
+		        isSolved = Solve_CTruscottWatters([t.tlf, t.blf, t.trf, t.brf, t.tlb, t.blb, t.trb, t.brb])
+		        print("{}, {}, {}, {}, {}, {}, {}, {}".format(t.tlf, t.blf, t.trf, t.brf, t.tlb, t.blb, t.trb, t.brb))
+#	        fh.write("Moves that have scrambled the cube: {}".format(t.moves))
+#	        fh.write("Moves that solve the cube: {}".format(isSolved))
+#	        fh.write("\n")
+		        fh.write("{}, {}, {}, {}, {}, {}, {}, {}".format(t.tlf, t.blf, t.trf, t.brf, t.tlb, t.blb, t.trb, t.brb))
+		        fh.write("|")
+		        fh.write("{}".format(t.moves))
+		        fh.write("|")
+		        fh.write("{}".format(isSolved))
+		        fh.write("|")
+		        fh.write("\n")
+	        
 Scramble()
