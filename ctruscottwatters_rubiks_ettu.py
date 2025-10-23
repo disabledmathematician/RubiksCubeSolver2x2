@@ -7,7 +7,11 @@ Charles Thomas Wallace Truscott
 
 I love you Dad Mark William Watters
 
+May have to see if I can reduce the time constraint
 
+There is a need for incremental solutions, so not just when exhaustively enumerating until all faces match, what about using the Ortega method and seeking incremental solutions first (reached the top face all white, reached the opposite face all yellow, enumerate moves to solve corners)
+
+What about a key value pair for opposite moves forming an instant solution to their opposites having scrambled the state of a cube
 """
 
 from queue import deque
@@ -283,7 +287,7 @@ class RubiksState(object):
             return True
 
 def alreadyIn(move):
-	fh = open('rubiks.csv', 'r')
+	fh = open('rubiks3.csv', 'r')
 	try:
 		for line in fh.readlines():
 			movesSolve = ast.literal_eval(line.split("|")[1])
@@ -326,7 +330,6 @@ def Solve_CTruscottWatters(inputState):
             	return t.moves
 
 def Scramble():
-	fh = open('rubiks.csv', 'a+')
 	States = deque([])
 	n = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "O", "B"], ["W", "R", "B"], ["Y", "R", "B"], [])
 	moves = [lambda s: s.L(), lambda s: s.Linv(), lambda s: s.R(), lambda s: s.Rinv(), lambda s: s.U(), lambda s: s.Uinv(), lambda s: s.D(), lambda s:s.Dinv(), lambda s: s.F(), lambda s: s.Finv(), lambda s: s.B(), lambda s: s.Binv()]
@@ -345,6 +348,7 @@ def Scramble():
 	        	print("Scrambling solved cube with: {}".format(t.moves))
 		        isSolved = Solve_CTruscottWatters([t.tlf, t.blf, t.trf, t.brf, t.tlb, t.blb, t.trb, t.brb])
 		        print("{}, {}, {}, {}, {}, {}, {}, {}".format(t.tlf, t.blf, t.trf, t.brf, t.tlb, t.blb, t.trb, t.brb))
+		        fh = open('rubiks3.csv', 'a')
 #		        print("Moves that have scrambled the cube: {}".format(t.moves))
 #		        print("Moves that solve the cube: {}".format(isSolved))
 #	        fh.write("\n")
@@ -355,6 +359,7 @@ def Scramble():
 		        fh.write("{}".format(isSolved))
 		        fh.write("|")
 		        fh.write("\n")
-	fh.close()
+		        fh.flush()
+		        fh.close()
 	        
 Scramble()
