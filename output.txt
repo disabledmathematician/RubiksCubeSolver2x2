@@ -85,3 +85,15 @@ Moves to solve: ['F inverse', 'L', 'D', 'L', 'U', 'L inverse']
 *** SOLVED ***
 Moves to solve: ['F', 'L', 'D', 'L', 'U', 'L inverse']
 ['Y', 'G', 'O'], ['B', 'Y', 'R'], ['O', 'B', 'W'], ['B', 'W', 'R'], ['G', 'W', 'R'], ['R', 'G', 'Y'], ['G', 'W', 'O'], ['Y', 'B', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L inverse', 'B']
+*** SOLVED ***
+Moves to solve: ['F', 'U', 'F inverse', 'L', 'F', 'R']
+['B', 'O', 'W'], ['G', 'Y', 'O'], ['W', 'B', 'R'], ['Y', 'B', 'R'], ['W', 'G', 'O'], ['W', 'G', 'R'], ['B', 'Y', 'O'], ['G', 'R', 'Y']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L inverse', 'B inverse']
+*** SOLVED ***
+Moves to solve: ['B', 'L', 'D', 'L', 'U', 'L inverse']
+['B', 'O', 'W'], ['G', 'Y', 'O'], ['W', 'B', 'R'], ['Y', 'B', 'R'], ['G', 'R', 'Y'], ['B', 'Y', 'O'], ['W', 'G', 'R'], ['W', 'G', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'R', 'L']
+*** SOLVED ***
+Moves to solve: ['F inverse', 'R inverse', 'U', 'L inverse']
+['R', 'G', 'Y'], ['G', 'W', 'R'], ['R', 'B', 'Y'], ['O', 'B', 'Y'], ['G', 'Y', 'O'], ['B', 'O', 'W'], ['R', 'B', 'W'], ['O', 'W', 'G']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'R', 'L inverse']
+*** SOLVED ***
+Moves to solve: ['L', 'L', 'F inverse', 'R inverse', 'U', 'L inverse']
+['B', 'O', 'W'], ['G', 'Y', 'O'], ['R', 'B', 'Y'], ['O', 'B', 'Y'], ['G', 'W', 'R'], ['R', 'G', 'Y'], ['R', 'B', 'W'], ['O', 'W', 'G']
