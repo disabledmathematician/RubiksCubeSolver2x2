@@ -1,192 +1,87 @@
-Move: ['L'], Moves Solve: ['L']
-Move eq MovesSolve: True
-Found
-Already In
-Move: ['L inverse'], Moves Solve: ['L']
-Move eq MovesSolve: False
-Move: ['L inverse'], Moves Solve: ['L inverse']
-Move eq MovesSolve: True
-Found
-Already In
-Move: ['R'], Moves Solve: ['L']
-Move eq MovesSolve: False
-Move: ['R'], Moves Solve: ['L inverse']
-Move eq MovesSolve: False
-Move: ['R'], Moves Solve: ['R']
-Move eq MovesSolve: True
-Found
-Already In
-Move: ['R inverse'], Moves Solve: ['L']
-Move eq MovesSolve: False
-Move: ['R inverse'], Moves Solve: ['L inverse']
-Move eq MovesSolve: False
-Move: ['R inverse'], Moves Solve: ['R']
-Move eq MovesSolve: False
-Move: ['R inverse'], Moves Solve: ['R inverse']
-Move eq MovesSolve: True
-Found
-Already In
-Move: ['U'], Moves Solve: ['L']
-Move eq MovesSolve: False
-Move: ['U'], Moves Solve: ['L inverse']
-Move eq MovesSolve: False
-Move: ['U'], Moves Solve: ['R']
-Move eq MovesSolve: False
-Move: ['U'], Moves Solve: ['R inverse']
-Move eq MovesSolve: False
-Move: ['U'], Moves Solve: ['U']
-Move eq MovesSolve: True
-Found
-Already In
-Move: ['U inverse'], Moves Solve: ['L']
-Move eq MovesSolve: False
-Move: ['U inverse'], Moves Solve: ['L inverse']
-Move eq MovesSolve: False
-Move: ['U inverse'], Moves Solve: ['R']
-Move eq MovesSolve: False
-Move: ['U inverse'], Moves Solve: ['R inverse']
-Move eq MovesSolve: False
-Move: ['U inverse'], Moves Solve: ['U']
-Move eq MovesSolve: False
-Move: ['U inverse'], Moves Solve: ['U inverse']
-Move eq MovesSolve: True
-Found
-Already In
-Move: ['D'], Moves Solve: ['L']
-Move eq MovesSolve: False
-Move: ['D'], Moves Solve: ['L inverse']
-Move eq MovesSolve: False
-Move: ['D'], Moves Solve: ['R']
-Move eq MovesSolve: False
-Move: ['D'], Moves Solve: ['R inverse']
-Move eq MovesSolve: False
-Move: ['D'], Moves Solve: ['U']
-Move eq MovesSolve: False
-Move: ['D'], Moves Solve: ['U inverse']
-Move eq MovesSolve: False
-Move: ['D'], Moves Solve: ['D']
-Move eq MovesSolve: True
-Found
-Already In
-Move: ['D inverse'], Moves Solve: ['L']
-Move eq MovesSolve: False
-Move: ['D inverse'], Moves Solve: ['L inverse']
-Move eq MovesSolve: False
-Move: ['D inverse'], Moves Solve: ['R']
-Move eq MovesSolve: False
-Move: ['D inverse'], Moves Solve: ['R inverse']
-Move eq MovesSolve: False
-Move: ['D inverse'], Moves Solve: ['U']
-Move eq MovesSolve: False
-Move: ['D inverse'], Moves Solve: ['U inverse']
-Move eq MovesSolve: False
-Move: ['D inverse'], Moves Solve: ['D']
-Move eq MovesSolve: False
-Move: ['D inverse'], Moves Solve: ['D inverse']
-Move eq MovesSolve: True
-Found
-Already In
-Move: ['F'], Moves Solve: ['L']
-Move eq MovesSolve: False
-Move: ['F'], Moves Solve: ['L inverse']
-Move eq MovesSolve: False
-Move: ['F'], Moves Solve: ['R']
-Move eq MovesSolve: False
-Move: ['F'], Moves Solve: ['R inverse']
-Move eq MovesSolve: False
-Move: ['F'], Moves Solve: ['U']
-Move eq MovesSolve: False
-Move: ['F'], Moves Solve: ['U inverse']
-Move eq MovesSolve: False
-Move: ['F'], Moves Solve: ['D']
-Move eq MovesSolve: False
-Move: ['F'], Moves Solve: ['D inverse']
-Move eq MovesSolve: False
-Move: ['F'], Moves Solve: ['F']
-Move eq MovesSolve: True
-Found
-Already In
-Move: ['F inverse'], Moves Solve: ['L']
-Move eq MovesSolve: False
-Move: ['F inverse'], Moves Solve: ['L inverse']
-Move eq MovesSolve: False
-Move: ['F inverse'], Moves Solve: ['R']
-Move eq MovesSolve: False
-Move: ['F inverse'], Moves Solve: ['R inverse']
-Move eq MovesSolve: False
-Move: ['F inverse'], Moves Solve: ['U']
-Move eq MovesSolve: False
-Move: ['F inverse'], Moves Solve: ['U inverse']
-Move eq MovesSolve: False
-Move: ['F inverse'], Moves Solve: ['D']
-Move eq MovesSolve: False
-Move: ['F inverse'], Moves Solve: ['D inverse']
-Move eq MovesSolve: False
-Move: ['F inverse'], Moves Solve: ['F']
-Move eq MovesSolve: False
-Move: ['F inverse'], Moves Solve: ['F inverse']
-Move eq MovesSolve: True
-Found
-Already In
-Move: ['B'], Moves Solve: ['L']
-Move eq MovesSolve: False
-Move: ['B'], Moves Solve: ['L inverse']
-Move eq MovesSolve: False
-Move: ['B'], Moves Solve: ['R']
-Move eq MovesSolve: False
-Move: ['B'], Moves Solve: ['R inverse']
-Move eq MovesSolve: False
-Move: ['B'], Moves Solve: ['U']
-Move eq MovesSolve: False
-Move: ['B'], Moves Solve: ['U inverse']
-Move eq MovesSolve: False
-Move: ['B'], Moves Solve: ['D']
-Move eq MovesSolve: False
-Move: ['B'], Moves Solve: ['D inverse']
-Move eq MovesSolve: False
-Move: ['B'], Moves Solve: ['F']
-Move eq MovesSolve: False
-Move: ['B'], Moves Solve: ['F inverse']
-Move eq MovesSolve: False
-Move: ['B'], Moves Solve: ['B']
-Move eq MovesSolve: True
-Found
-Already In
-Move: ['B inverse'], Moves Solve: ['L']
-Move eq MovesSolve: False
-Move: ['B inverse'], Moves Solve: ['L inverse']
-Move eq MovesSolve: False
-Move: ['B inverse'], Moves Solve: ['R']
-Move eq MovesSolve: False
-Move: ['B inverse'], Moves Solve: ['R inverse']
-Move eq MovesSolve: False
-Move: ['B inverse'], Moves Solve: ['U']
-Move eq MovesSolve: False
-Move: ['B inverse'], Moves Solve: ['U inverse']
-Move eq MovesSolve: False
-Move: ['B inverse'], Moves Solve: ['D']
-Move eq MovesSolve: False
-Move: ['B inverse'], Moves Solve: ['D inverse']
-Move eq MovesSolve: False
-Move: ['B inverse'], Moves Solve: ['F']
-Move eq MovesSolve: False
-Move: ['B inverse'], Moves Solve: ['F inverse']
-Move eq MovesSolve: False
-Move: ['B inverse'], Moves Solve: ['B']
-Move eq MovesSolve: False
-Move: ['B inverse'], Moves Solve: ['B inverse']
-Move eq MovesSolve: True
-Found
-Already In
-Traceback (most recent call last):
-  File "/data/user/0/ru.iiec.pydroid3/files/accomp_files/iiec_run/iiec_run.py", line 31, in <module>
-    start(fakepyfile,mainpyfile)
-    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/user/0/ru.iiec.pydroid3/files/accomp_files/iiec_run/iiec_run.py", line 30, in start
-    exec(open(mainpyfile).read(),  __main__.__dict__)
-    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "<string>", line 369, in <module>
-  File "<string>", line 315, in Scramble
-IndexError: pop from an empty deque
+No need to scramble with ['L', 'U inverse', 'L inverse', 'D inverse', 'L']. Entry exists
+No need to scramble with ['L', 'U inverse', 'L inverse', 'D inverse', 'L inverse']. Entry exists
+No need to scramble with ['L', 'U inverse', 'L inverse', 'D inverse', 'R']. Entry exists
+No need to scramble with ['L', 'U inverse', 'L inverse', 'D inverse', 'R inverse']. Entry exists
+No need to scramble with ['L', 'U inverse', 'L inverse', 'D inverse', 'U']. Entry exists
+No need to scramble with ['L', 'U inverse', 'L inverse', 'D inverse', 'U inverse']. Entry exists
+No need to scramble with ['L', 'U inverse', 'L inverse', 'D inverse', 'D']. Entry exists
+No need to scramble with ['L', 'U inverse', 'L inverse', 'D inverse', 'D inverse']. Entry exists
+No need to scramble with ['L', 'U inverse', 'L inverse', 'D inverse', 'F']. Entry exists
+Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'F inverse']
+*** SOLVED ***
+Moves to solve: ['F', 'D', 'L', 'U', 'L inverse']
+['G', 'Y', 'R'], ['B', 'Y', 'R'], ['Y', 'O', 'G'], ['B', 'W', 'R'], ['W', 'O', 'B'], ['R', 'W', 'G'], ['G', 'W', 'O'], ['Y', 'B', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'B']
+*** SOLVED ***
+Moves to solve: ['F', 'R', 'U', 'B inverse', 'R']
+['O', 'Y', 'G'], ['Y', 'G', 'R'], ['W', 'B', 'R'], ['Y', 'B', 'R'], ['W', 'G', 'O'], ['O', 'W', 'B'], ['B', 'Y', 'O'], ['W', 'R', 'G']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'B inverse']
+*** SOLVED ***
+Moves to solve: ['B', 'D', 'L', 'U', 'L inverse']
+['O', 'Y', 'G'], ['Y', 'G', 'R'], ['W', 'B', 'R'], ['Y', 'B', 'R'], ['W', 'R', 'G'], ['B', 'Y', 'O'], ['O', 'W', 'B'], ['W', 'G', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L', 'L']
+*** SOLVED ***
+Moves to solve: ['L', 'L', 'D', 'L', 'U', 'L inverse']
+['R', 'W', 'G'], ['W', 'O', 'B'], ['W', 'B', 'R'], ['Y', 'B', 'R'], ['Y', 'G', 'R'], ['O', 'Y', 'G'], ['G', 'W', 'O'], ['Y', 'B', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L', 'L inverse']
+*** SOLVED ***
+Moves to solve: ['D', 'L', 'U', 'L inverse']
+['O', 'Y', 'G'], ['Y', 'G', 'R'], ['W', 'B', 'R'], ['Y', 'B', 'R'], ['W', 'O', 'B'], ['R', 'W', 'G'], ['G', 'W', 'O'], ['Y', 'B', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L', 'R']
+*** SOLVED ***
+Moves to solve: ['F inverse', 'R inverse', 'U', 'L inverse']
+['R', 'G', 'Y'], ['G', 'W', 'R'], ['R', 'B', 'Y'], ['O', 'B', 'Y'], ['G', 'Y', 'O'], ['B', 'O', 'W'], ['R', 'B', 'W'], ['O', 'W', 'G']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L', 'R inverse']
+*** SOLVED ***
+Moves to solve: ['L', 'L', 'B', 'L', 'F', 'R']
+['R', 'G', 'Y'], ['G', 'W', 'R'], ['O', 'W', 'G'], ['R', 'B', 'W'], ['G', 'Y', 'O'], ['B', 'O', 'W'], ['O', 'B', 'Y'], ['R', 'B', 'Y']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L', 'U']
+*** SOLVED ***
+Moves to solve: ['U inverse', 'L inverse', 'D', 'L', 'U', 'L inverse']
+['G', 'O', 'Y'], ['G', 'W', 'R'], ['R', 'Y', 'G'], ['Y', 'B', 'R'], ['G', 'O', 'W'], ['B', 'O', 'W'], ['W', 'R', 'B'], ['Y', 'B', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L', 'U inverse']
+*** SOLVED ***
+Moves to solve: ['U', 'L inverse', 'D', 'L', 'U', 'L inverse']
+['W', 'R', 'B'], ['G', 'W', 'R'], ['G', 'O', 'W'], ['Y', 'B', 'R'], ['R', 'Y', 'G'], ['B', 'O', 'W'], ['G', 'O', 'Y'], ['Y', 'B', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L', 'D']
+*** SOLVED ***
+Moves to solve: ['U', 'F inverse', 'U inverse', 'L', 'U', 'L inverse']
+['R', 'G', 'Y'], ['B', 'W', 'O'], ['W', 'B', 'R'], ['G', 'R', 'W'], ['G', 'Y', 'O'], ['Y', 'O', 'B'], ['G', 'W', 'O'], ['Y', 'R', 'B']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L', 'D inverse']
+*** SOLVED ***
+Moves to solve: ['L', 'U', 'F inverse', 'D', 'F inverse', 'L inverse']
+['R', 'G', 'Y'], ['Y', 'R', 'B'], ['W', 'B', 'R'], ['Y', 'O', 'B'], ['G', 'Y', 'O'], ['G', 'R', 'W'], ['G', 'W', 'O'], ['B', 'W', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L', 'F']
+*** SOLVED ***
+Moves to solve: ['F', 'U', 'F', 'L inverse', 'D', 'R inverse']
+['B', 'W', 'R'], ['G', 'R', 'Y'], ['B', 'Y', 'R'], ['W', 'G', 'R'], ['G', 'Y', 'O'], ['B', 'O', 'W'], ['G', 'W', 'O'], ['Y', 'B', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L', 'F inverse']
+*** SOLVED ***
+Moves to solve: ['U', 'L inverse', 'U inverse', 'R inverse', 'U', 'B']
+['W', 'G', 'R'], ['B', 'Y', 'R'], ['G', 'R', 'Y'], ['B', 'W', 'R'], ['G', 'Y', 'O'], ['B', 'O', 'W'], ['G', 'W', 'O'], ['Y', 'B', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L', 'B']
+*** SOLVED ***
+Moves to solve: ['L', 'D', 'L inverse', 'U', 'L', 'F inverse']
+['R', 'G', 'Y'], ['G', 'W', 'R'], ['W', 'B', 'R'], ['Y', 'B', 'R'], ['W', 'G', 'O'], ['Y', 'G', 'O'], ['B', 'Y', 'O'], ['O', 'B', 'W']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L', 'B inverse']
+*** SOLVED ***
+Moves to solve: ['F inverse', 'D', 'B', 'R inverse', 'U', 'L inverse']
+['R', 'G', 'Y'], ['G', 'W', 'R'], ['W', 'B', 'R'], ['Y', 'B', 'R'], ['O', 'B', 'W'], ['B', 'Y', 'O'], ['Y', 'G', 'O'], ['W', 'G', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L inverse', 'L']
+*** SOLVED ***
+Moves to solve: ['D', 'L', 'U', 'L inverse']
+['O', 'Y', 'G'], ['Y', 'G', 'R'], ['W', 'B', 'R'], ['Y', 'B', 'R'], ['W', 'O', 'B'], ['R', 'W', 'G'], ['G', 'W', 'O'], ['Y', 'B', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L inverse', 'L inverse']
+*** SOLVED ***
+Moves to solve: ['L', 'L', 'D', 'L', 'U', 'L inverse']
+['R', 'W', 'G'], ['W', 'O', 'B'], ['W', 'B', 'R'], ['Y', 'B', 'R'], ['Y', 'G', 'R'], ['O', 'Y', 'G'], ['G', 'W', 'O'], ['Y', 'B', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L inverse', 'R']
+*** SOLVED ***
+Moves to solve: ['L', 'L', 'F inverse', 'R inverse', 'U', 'L inverse']
+['B', 'O', 'W'], ['G', 'Y', 'O'], ['R', 'B', 'Y'], ['O', 'B', 'Y'], ['G', 'W', 'R'], ['R', 'G', 'Y'], ['R', 'B', 'W'], ['O', 'W', 'G']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L inverse', 'R inverse']
+*** SOLVED ***
+Moves to solve: ['B', 'L', 'F', 'R']
+['B', 'O', 'W'], ['G', 'Y', 'O'], ['O', 'W', 'G'], ['R', 'B', 'W'], ['G', 'W', 'R'], ['R', 'G', 'Y'], ['O', 'B', 'Y'], ['R', 'B', 'Y']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L inverse', 'U']
+*** SOLVED ***
+Moves to solve: ['U inverse', 'L', 'D', 'L', 'U', 'L inverse']
+['G', 'R', 'W'], ['G', 'Y', 'O'], ['B', 'W', 'O'], ['Y', 'B', 'R'], ['G', 'O', 'W'], ['R', 'G', 'Y'], ['W', 'R', 'B'], ['Y', 'B', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L inverse', 'U inverse']
+*** SOLVED ***
+Moves to solve: ['U', 'L', 'D', 'L', 'U', 'L inverse']
+['W', 'R', 'B'], ['G', 'Y', 'O'], ['G', 'O', 'W'], ['Y', 'B', 'R'], ['B', 'W', 'O'], ['R', 'G', 'Y'], ['G', 'R', 'W'], ['Y', 'B', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L inverse', 'D']
+*** SOLVED ***
+Moves to solve: ['U', 'F', 'U inverse', 'L', 'U', 'L inverse']
+['B', 'O', 'W'], ['R', 'Y', 'G'], ['W', 'B', 'R'], ['G', 'O', 'Y'], ['G', 'W', 'R'], ['Y', 'O', 'B'], ['G', 'W', 'O'], ['Y', 'R', 'B']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L inverse', 'D inverse']
+*** SOLVED ***
+Moves to solve: ['L', 'F inverse', 'D', 'R inverse', 'D', 'F']
+['B', 'O', 'W'], ['Y', 'R', 'B'], ['W', 'B', 'R'], ['Y', 'O', 'B'], ['G', 'W', 'R'], ['G', 'O', 'Y'], ['G', 'W', 'O'], ['R', 'Y', 'G']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L inverse', 'F']
+*** SOLVED ***
+Moves to solve: ['F inverse', 'L', 'D', 'L', 'U', 'L inverse']
+['B', 'W', 'R'], ['O', 'B', 'W'], ['B', 'Y', 'R'], ['Y', 'G', 'O'], ['G', 'W', 'R'], ['R', 'G', 'Y'], ['G', 'W', 'O'], ['Y', 'B', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L inverse', 'F inverse']
 
-[Program finished]
+
+*** SOLVED ***
+Moves to solve: ['F', 'L', 'D', 'L', 'U', 'L inverse']
+['Y', 'G', 'O'], ['B', 'Y', 'R'], ['O', 'B', 'W'], ['B', 'W', 'R'], ['G', 'W', 'R'], ['R', 'G', 'Y'], ['G', 'W', 'O'], ['Y', 'B', 'O']Scrambling solved cube with: ['L', 'U inverse', 'L inverse', 'D inverse', 'L inverse', 'B']
