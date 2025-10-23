@@ -263,7 +263,13 @@ class RubiksState(object):
         n = RubiksState(self.tlf, self.blf, self.trf, self.brf, ntlb, nblb, ntrb, nbrb, moves)
         #tlf, blf, trf, brf, tlb, blb, trb, brb, moves
         return n
-        
+    def is_solved(self):
+        if self.blb == ['Y', 'O', 'B'] and self.tlb == ['W', 'O', 'B'] and self.brb == ['Y', 'R', 'B'] and self.trb == ['W', 'R', 'B'] and self.blf == ['Y', 'O', 'G'] and self.tlf == ['W', 'O', 'G'] and self.brf == ['Y', 'R', 'G'] and self.trf == ['W', 'R', 'G']:
+            return True
+#            exit(1)
+        if self.front_face == ['G', 'G', 'G', 'G'] and self.back_face == ['B', 'B', 'B', 'B'] and self.left_face == ['O', 'O', 'O', 'O'] and self.right_face == ['R', 'R', 'R', 'R'] and self.up_face == ['W', 'W', 'W', 'W'] and self.down_face == ['Y', 'Y', 'Y', 'Y']:
+            return True
+
 def alreadyIn(move):
 	fh = open('rubiks.csv', 'r')
 	try:
@@ -313,7 +319,7 @@ def Scramble():
 	States = deque([])
 	n = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "O", "B"], ["W", "R", "B"], ["Y", "R", "B"], [])
 	moves = [lambda s: s.L(), lambda s: s.Linv(), lambda s: s.R(), lambda s: s.Rinv(), lambda s: s.U(), lambda s: s.Uinv(), lambda s: s.D(), lambda s:s.Dinv(), lambda s: s.F(), lambda s: s.Finv(), lambda s: s.B(), lambda s: s.Binv()]
-	States.append(n)
+	States.append(n.L().Uinv().Linv().Dinv().Finv())
 #	for move in moves:
 #		States.append(move(n))
 	while True:
