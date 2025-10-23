@@ -1,3 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+New paradigm Rubik's Cube Solving algorithm
+
+Charles Thomas Wallace Truscott
+(Computational Thinking with Python MITx, Using Python for Research Harvard T.H. Chan School of Medicine)
+
+I love you Dad Mark William Watters
+
+
+"""
+
 from queue import deque
 import ast
 class RubiksState(object):
@@ -319,7 +331,7 @@ def Scramble():
 	States = deque([])
 	n = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "O", "B"], ["W", "R", "B"], ["Y", "R", "B"], [])
 	moves = [lambda s: s.L(), lambda s: s.Linv(), lambda s: s.R(), lambda s: s.Rinv(), lambda s: s.U(), lambda s: s.Uinv(), lambda s: s.D(), lambda s:s.Dinv(), lambda s: s.F(), lambda s: s.Finv(), lambda s: s.B(), lambda s: s.Binv()]
-	States.append(n.L().Uinv().Linv().Dinv().Finv())
+	States.append(n.L().Uinv().Linv().Dinv())
 #	for move in moves:
 #		States.append(move(n))
 	while True:
