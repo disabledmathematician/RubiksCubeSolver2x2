@@ -279,6 +279,8 @@ class RubiksState(object):
             return True
 
 def Duodecimal(num: int, configuration: RubiksState):
+    initialState = [configuration.tlf, configuration.blf, configuration.trf, configuration.brf, configuration.tlb, configuration.blb, configuration.trb, configuration.brb]
+    print("Initial State: {}".format(initialState))
     digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     result = ""
     if num == 0:
@@ -289,6 +291,7 @@ def Duodecimal(num: int, configuration: RubiksState):
     	num //= 12
     if configuration.is_solved():
     	print("Your cube is already solved")
+    	quit(1)
     for c in result:
     	if c == "B":
     		configuration = configuration.Binv()
@@ -338,6 +341,7 @@ def Duodecimal(num: int, configuration: RubiksState):
     		configuration = configuration.L()
     		if configuration.is_solved() == True:
  	 	  	print("Solved: {}".format(configuration.moves))
+ 	
     	#return configuration.moves
  #   return result
         
