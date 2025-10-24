@@ -278,7 +278,7 @@ class RubiksState(object):
         if self.front_face == ['G', 'G', 'G', 'G'] and self.back_face == ['B', 'B', 'B', 'B'] and self.left_face == ['O', 'O', 'O', 'O'] and self.right_face == ['R', 'R', 'R', 'R'] and self.up_face == ['W', 'W', 'W', 'W'] and self.down_face == ['Y', 'Y', 'Y', 'Y']:
             return True
 
-def Duodecimal(num: int, configuration: RubiksState):
+def Tridecimal(num: int, configuration: RubiksState):
     initialState = [configuration.tlf, configuration.blf, configuration.trf, configuration.brf, configuration.tlb, configuration.blb, configuration.trb, configuration.brb]
     print("Initial State: {}".format(initialState))
     digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -347,7 +347,7 @@ def Duodecimal(num: int, configuration: RubiksState):
  #   return result
         
 def CTruscottWatters(begin: int, configuration: RubiksState) -> list:
-	print(Duodecimal(begin, configuration))
+	print(Tridecimal(begin, configuration))
 	return configuration.moves
 	
 
