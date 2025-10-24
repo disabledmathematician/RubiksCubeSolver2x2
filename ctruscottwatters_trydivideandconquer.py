@@ -5,6 +5,8 @@ Charles Thomas Wallace Truscott
 (Computational Thinking with Python MITx, Using Python for Research Harvard T.H. Chan School of Medicine)
 
 I love you Dad Mark William Watters
+
+Seems I have reduced the computational complexity to a linear time, Θ(n), hitherto it was in my previous demonstration 12ⁿ or exponential time
 """
 from queue import deque
 import ast
@@ -296,7 +298,7 @@ def Tridecimal(num: int, configuration: RubiksState):
     if configuration.is_solved():
     	print("Your cube is already solved")
     	quit(1)
-#    	quit(1)
+#    print(result)
     for c in result:
     	print("Moves: {}".format(configuration.moves))
     	if c == "C":
@@ -347,7 +349,7 @@ def Tridecimal(num: int, configuration: RubiksState):
     		configuration = configuration.L()
     		if configuration.is_solved() == True:
  	 	  	print("Solved: {}".format(configuration.moves))
-    	else:
+    	elif c == "0":
     		continue
 
     	#return configuration.moves
@@ -361,5 +363,5 @@ def CTruscottWatters(begin: int, configuration: RubiksState) -> list:
 rState = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "B", "R"], ["W", "R", "B"], ["Y", "B", "O"], [])
 
 for n in range(int("1111111", base=13), int("CCCCCCCCCC", base=13), 1):
-#	CTruscottWatters(int("1054AB", base=12), rState)
+#	CTruscottWatters(int("1054AD", base=12), rState)
 	CTruscottWatters(n, rState)
