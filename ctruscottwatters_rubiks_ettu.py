@@ -287,7 +287,7 @@ class RubiksState(object):
             return True
 
 def alreadyIn(move):
-	fh = open('rubiks3.csv', 'r')
+	fh = open('rubiks-solve.bin', 'r')
 	try:
 		for line in fh.readlines():
 			movesSolve = ast.literal_eval(line.split("|")[1])
@@ -301,6 +301,34 @@ def alreadyIn(move):
 		return False
 	return False
 
+def solveOnTheFly(inputState, try_moves):
+    States = deque([])
+#    n = RubiksState(['O', 'B', 'Y'], ['R', 'B', 'Y', ], ['O', 'G', 'Y'], ['R', 'G', 'Y'], ['O', 'B', 'W'], ['R', 'B', 'W'], ['O', 'G', 'W'], ['R', 'G', 'W'], [])
+#    all_states = [n for n in itertools.permutations([['G', 'G', 'G', 'G'], ['B', 'B', 'B', 'B'], ['O', 'O', 'O', 'O'], ['R', 'R', 'R', 'R'], ['W', 'W', 'W', 'W'], ['Y', 'Y', 'Y', 'Y']])]
+    n = RubiksState(inputState[0], inputState[1], inputState[2], inputState[3], inputState[4], inputState[5], inputState[6], inputState[7], [])
+#    n = RubiksState(["W", "O", "G"], ["B", "Y", "R"],  ["W", "B", "R"], ["Y", "R", "G"], ["R", "G", "W"], ["Y", "G", "O"], ["W", "B", "O"], ["Y", "B", "O"], [])
+#    initial_state = n.orientation
+#    print(all_states)
+#    sys.exit(1)
+    #tlf, blf, trf, brf, tlb, blb, trb, brb, moves
+    opposites = {"L": lambda s: s.Linv(), "L'": lambda s: s.L(), "R": lambda s: s.Rinv(), "R'": lambda s: s.R(), "U": lambda s: s.Uinv(), "U'": lambda s: s.U(), "D": lambda s: s.Dinv(), "D'": lambda s: s.D(), "F": lambda s: s.Finv(), "F'": lambda s: s.F(), "B": lambda s: s.Binv(), "B'": lambda s: s.B()}
+    moves = [lambda s: s.L(), lambda s: s.Linv(), lambda s: s.R(), lambda s: s.Rinv(), lambda s: s.U(), lambda s: s.Uinv(), lambda s: s.D(), lambda s: s.Dinv(), lambda s: s.F(), lambda s: s.Finv(), lambda s: s.B(), lambda s: s.Binv()]
+    States.append(n)
+    solved = False
+    while solved != True:
+
+        state = States.popleft()
+
+        for move in try_moves:
+
+            t = move(state)
+#            print(t.moves)
+
+            States.append(t)
+            if t.is_solved() == True:
+            	print("*** SOLVED ***")
+            	print("Moves to solve: {}".format(t.moves))
+            	return t.moves
 def Solve_CTruscottWatters(inputState):
     States = deque([])
 #    n = RubiksState(['O', 'B', 'Y'], ['R', 'B', 'Y', ], ['O', 'G', 'Y'], ['R', 'G', 'Y'], ['O', 'B', 'W'], ['R', 'B', 'W'], ['O', 'G', 'W'], ['R', 'G', 'W'], [])
@@ -311,6 +339,7 @@ def Solve_CTruscottWatters(inputState):
 #    print(all_states)
 #    sys.exit(1)
     #tlf, blf, trf, brf, tlb, blb, trb, brb, moves
+    opposites = {"L": lambda s: s.Linv(), "L'": lambda s: s.L(), "R": lambda s: s.Rinv(), "R'": lambda s: s.R(), "U": lambda s: s.Uinv(), "U'": lambda s: s.U(), "D": lambda s: s.Dinv(), "D'": lambda s: s.D(), "F": lambda s: s.Finv(), "F'": lambda s: s.F(), "B": lambda s: s.Binv(), "B'": lambda s: s.B()}
     moves = [lambda s: s.L(), lambda s: s.Linv(), lambda s: s.R(), lambda s: s.Rinv(), lambda s: s.U(), lambda s: s.Uinv(), lambda s: s.D(), lambda s: s.Dinv(), lambda s: s.F(), lambda s: s.Finv(), lambda s: s.B(), lambda s: s.Binv()]
     States.append(n)
     solved = False
@@ -330,10 +359,13 @@ def Solve_CTruscottWatters(inputState):
             	return t.moves
 
 def Scramble():
+	fh = open('rubiks-solve.bin', 'w+')
+	opposites = {"L": lambda s: s.Linv(), "L inverse": lambda s: s.L(), "R": lambda s: s.Rinv(), "R inverse": lambda s: s.R(), "U": lambda s: s.Uinv(), "U inverse": lambda s: s.U(), "D": lambda s: s.Dinv(), "D inverse": lambda s: s.D(), "F": lambda s: s.Finv(), "F inverse": lambda s: s.F(), "B": lambda s: s.Binv(), "B inverse": lambda s: s.B()}
 	States = deque([])
 	n = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "O", "B"], ["W", "R", "B"], ["Y", "R", "B"], [])
 	moves = [lambda s: s.L(), lambda s: s.Linv(), lambda s: s.R(), lambda s: s.Rinv(), lambda s: s.U(), lambda s: s.Uinv(), lambda s: s.D(), lambda s:s.Dinv(), lambda s: s.F(), lambda s: s.Finv(), lambda s: s.B(), lambda s: s.Binv()]
-	States.append(n.L().Uinv().Linv().Dinv())
+#	States.append(n.L().Uinv().Linv().Dinv())
+	States.append(n)
 #	for move in moves:
 #		States.append(move(n))
 	while True:
@@ -346,20 +378,29 @@ def Scramble():
 	        	continue
 	        else:
 	        	print("Scrambling solved cube with: {}".format(t.moves))
-		        isSolved = Solve_CTruscottWatters([t.tlf, t.blf, t.trf, t.brf, t.tlb, t.blb, t.trb, t.brb])
-		        print("{}, {}, {}, {}, {}, {}, {}, {}".format(t.tlf, t.blf, t.trf, t.brf, t.tlb, t.blb, t.trb, t.brb))
-		        fh = open('rubiks3.csv', 'a')
+	        	possibleSolve = []
+	        	for e in t.moves[::-1]:
+	        		possibleSolve.append(opposites[e])
+	        	isSolved = solveOnTheFly([t.tlf, t.blf, t.trf, t.brf, t.tlb, t.blb, t.trb, t.brb], possibleSolve)
+#	        	for move in possibleSolve:
+#	        		nt = move(t)
+#	        		if nt.is_solved() == True:
+#	        			print("Solved: {}".format(nt.moves))
+#	        		isSolved = nt.moves
+#		        isSolved = Solve_CTruscottWatters([t.tlf, t.blf, t.trf, t.brf, t.tlb, t.blb, t.trb, t.brb])
+#		        print("{}, {}, {}, {}, {}, {}, {}, {}".format(t.tlf, t.blf, t.trf, t.brf, t.tlb, t.blb, t.trb, t.brb))
+#		        fh = open('rubiks3.csv', 'a')
 #		        print("Moves that have scrambled the cube: {}".format(t.moves))
 #		        print("Moves that solve the cube: {}".format(isSolved))
 #	        fh.write("\n")
-		        fh.write("{}, {}, {}, {}, {}, {}, {}, {}".format(t.tlf, t.blf, t.trf, t.brf, t.tlb, t.blb, t.trb, t.brb))
-		        fh.write("|")
-		        fh.write("{}".format(t.moves))
-		        fh.write("|")
-		        fh.write("{}".format(isSolved))
-		        fh.write("|")
-		        fh.write("\n")
-		        fh.flush()
-		        fh.close()
+#		        fh.write("{}, {}, {}, {}, {}, {}, {}, {}".format(t.tlf, t.blf, t.trf, t.brf, t.tlb, t.blb, t.trb, t.brb))
+#		        fh.write("|")
+#		        fh.write("{}".format(t.moves))
+#		        fh.write("|")
+#		        fh.write("{}".format(isSolved))
+#		        fh.write("|")
+#		        fh.write("\n")
+#		        fh.flush()
+	fh.close()
 	        
 Scramble()
