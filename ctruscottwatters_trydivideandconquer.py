@@ -1,4 +1,11 @@
+"""
+Trying for a divide and conquer algorithm to solve the 2 x 2 x 2 Rubik's Cube 
 
+Charles Thomas Wallace Truscott
+(Computational Thinking with Python MITx, Using Python for Research Harvard T.H. Chan School of Medicine)
+
+I love you Dad Mark William Watters
+"""
 from queue import deque
 import ast
 class RubiksState(object):
