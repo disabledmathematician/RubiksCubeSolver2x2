@@ -292,7 +292,9 @@ def Duodecimal(num: int, configuration: RubiksState):
     if configuration.is_solved():
     	print("Your cube is already solved")
     	quit(1)
+#    	quit(1)
     for c in result:
+    	print("Moves: {}".format(configuration.moves))
     	if c == "B":
     		configuration = configuration.Binv()
     		if configuration.is_solved() == True:
@@ -341,7 +343,6 @@ def Duodecimal(num: int, configuration: RubiksState):
     		configuration = configuration.L()
     		if configuration.is_solved() == True:
  	 	  	print("Solved: {}".format(configuration.moves))
- 	
     	#return configuration.moves
  #   return result
         
@@ -350,6 +351,8 @@ def CTruscottWatters(begin: int, configuration: RubiksState) -> list:
 	return configuration.moves
 	
 
-rState = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "O", "B"], ["W", "R", "B"], ["Y", "R", "B"], [])
+rState = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "B", "R"], ["W", "R", "B"], ["Y", "B", "O"], [])
 
-CTruscottWatters(int("1054AB", base=12), rState)
+for n in range(int("BBBBBBBBBB", base=12), 0, -1):
+#	CTruscottWatters(int("1054AB", base=12), rState)
+	CTruscottWatters(n, rState)
