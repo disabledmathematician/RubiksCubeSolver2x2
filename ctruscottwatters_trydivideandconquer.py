@@ -273,14 +273,18 @@ class RubiksState(object):
         return n
     def is_solved(self):
         if self.blb == ['Y', 'O', 'B'] and self.tlb == ['W', 'O', 'B'] and self.brb == ['Y', 'R', 'B'] and self.trb == ['W', 'R', 'B'] and self.blf == ['Y', 'O', 'G'] and self.tlf == ['W', 'O', 'G'] and self.brf == ['Y', 'R', 'G'] and self.trf == ['W', 'R', 'G']:
+            print("Solved: {}".format(self.moves))
+            quit(1)
             return True
 #            exit(1)
         if self.front_face == ['G', 'G', 'G', 'G'] and self.back_face == ['B', 'B', 'B', 'B'] and self.left_face == ['O', 'O', 'O', 'O'] and self.right_face == ['R', 'R', 'R', 'R'] and self.up_face == ['W', 'W', 'W', 'W'] and self.down_face == ['Y', 'Y', 'Y', 'Y']:
+            print("Solved: {}".format(self.moves))
+            quit(1)
             return True
 
 def Tridecimal(num: int, configuration: RubiksState):
     initialState = [configuration.tlf, configuration.blf, configuration.trf, configuration.brf, configuration.tlb, configuration.blb, configuration.trb, configuration.brb]
-    print("Initial State: {}".format(initialState))
+#    print("Initial State: {}".format(initialState))
     digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     result = ""
     if num == 0:
@@ -343,6 +347,9 @@ def Tridecimal(num: int, configuration: RubiksState):
     		configuration = configuration.L()
     		if configuration.is_solved() == True:
  	 	  	print("Solved: {}".format(configuration.moves))
+    	else:
+    		continue
+
     	#return configuration.moves
  #   return result
         
@@ -353,6 +360,6 @@ def CTruscottWatters(begin: int, configuration: RubiksState) -> list:
 
 rState = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "B", "R"], ["W", "R", "B"], ["Y", "B", "O"], [])
 
-for n in range(0, int("CCCCCCCCCC", base=13), 1):
+for n in range(int("1111111", base=13), int("CCCCCCCCCC", base=13), 1):
 #	CTruscottWatters(int("1054AB", base=12), rState)
 	CTruscottWatters(n, rState)
