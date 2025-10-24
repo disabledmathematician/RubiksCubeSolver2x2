@@ -286,60 +286,60 @@ def Duodecimal(num: int, configuration: RubiksState):
     if num == 0:
     	return 0
     while num > 0:
-    	r = num % 12
+    	r = num % 13
     	result = digits[r] + result
-    	num //= 12
+    	num //= 13
     if configuration.is_solved():
     	print("Your cube is already solved")
     	quit(1)
 #    	quit(1)
     for c in result:
     	print("Moves: {}".format(configuration.moves))
-    	if c == "B":
+    	if c == "C":
     		configuration = configuration.Binv()
     		if configuration.is_solved() == True:
  	 	  	print("Solved: {}".format(configuration.moves))
-    	elif c == "A":
+    	elif c == "B":
     		configuration = configuration.B()
     		if configuration.is_solved() == True:
  	 	  	print("Solved: {}".format(configuration.moves))
-    	elif c == "9":
+    	elif c == "A":
     		configuration = configuration.Finv()
     		if configuration.is_solved() == True:
  	 	  	print("Solved: {}".format(configuration.moves))
-    	elif c == "8":
+    	elif c == "9":
     		configuration = configuration.F()
     		if configuration.is_solved() == True:
  	 	  	print("Solved: {}".format(configuration.moves))
-    	elif c == "7":
+    	elif c == "8":
     		configuration = configuration.Dinv()
     		if configuration.is_solved() == True:
  	 	  	print("Solved: {}".format(configuration.moves))
-    	elif c == "6":
+    	elif c == "7":
     		configuration = configuration.D()
     		if configuration.is_solved() == True:
  	 	  	print("Solved: {}".format(configuration.moves))
-    	elif c == "5":
+    	elif c == "6":
     		configuration = configuration.Uinv()
     		if configuration.is_solved() == True:
  	 	  	print("Solved: {}".format(configuration.moves))
-    	elif c == "4":
+    	elif c == "5":
     		configuration = configuration.U()
     		if configuration.is_solved() == True:
  	 	  	print("Solved: {}".format(configuration.moves))
-    	elif c == "3":
+    	elif c == "4":
     		configuration = configuration.Rinv()
     		if configuration.is_solved() == True:
  	 	  	print("Solved: {}".format(configuration.moves))
-    	elif c == "2":
+    	elif c == "3":
     		configuration = configuration.R()
     		if configuration.is_solved() == True:
  	 	  	print("Solved: {}".format(configuration.moves))
-    	elif c == "1":
+    	elif c == "2":
     		configuration = configuration.Linv()
     		if configuration.is_solved() == True:
  	 	  	print("Solved: {}".format(configuration.moves))
-    	elif c == "0":
+    	elif c == "1":
     		configuration = configuration.L()
     		if configuration.is_solved() == True:
  	 	  	print("Solved: {}".format(configuration.moves))
@@ -353,6 +353,6 @@ def CTruscottWatters(begin: int, configuration: RubiksState) -> list:
 
 rState = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "B", "R"], ["W", "R", "B"], ["Y", "B", "O"], [])
 
-for n in range(int("BBBBBBBBBB", base=12), 0, -1):
+for n in range(0, int("CCCCCCCCCC", base=13), 1):
 #	CTruscottWatters(int("1054AB", base=12), rState)
 	CTruscottWatters(n, rState)
