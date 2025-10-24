@@ -287,7 +287,7 @@ class RubiksState(object):
             return True
 
 def alreadyIn(move):
-	fh = open('rubiks-solve.bin', 'r')
+	fh = open('rubiks-solve.dat', 'r')
 	try:
 		for line in fh.readlines():
 			movesSolve = ast.literal_eval(line.split("|")[1])
@@ -359,7 +359,7 @@ def Solve_CTruscottWatters(inputState):
             	return t.moves
 
 def Scramble():
-	fh = open('rubiks-solve.bin', 'w+')
+	fh = open('rubiks-solve.dat', 'a')
 	opposites = {"L": lambda s: s.Linv(), "L inverse": lambda s: s.L(), "R": lambda s: s.Rinv(), "R inverse": lambda s: s.R(), "U": lambda s: s.Uinv(), "U inverse": lambda s: s.U(), "D": lambda s: s.Dinv(), "D inverse": lambda s: s.D(), "F": lambda s: s.Finv(), "F inverse": lambda s: s.F(), "B": lambda s: s.Binv(), "B inverse": lambda s: s.B()}
 	States = deque([])
 	n = RubiksState(["W", "O", "G"], ["Y", "O", "G"],  ["W", "R", "G"], ["Y", "R", "G"], ["W", "O", "B"], ["Y", "O", "B"], ["W", "R", "B"], ["Y", "R", "B"], [])
@@ -390,8 +390,8 @@ def Scramble():
 #		        isSolved = Solve_CTruscottWatters([t.tlf, t.blf, t.trf, t.brf, t.tlb, t.blb, t.trb, t.brb])
 #		        print("{}, {}, {}, {}, {}, {}, {}, {}".format(t.tlf, t.blf, t.trf, t.brf, t.tlb, t.blb, t.trb, t.brb))
 #		        fh = open('rubiks3.csv', 'a')
-#		        print("Moves that have scrambled the cube: {}".format(t.moves))
-#		        print("Moves that solve the cube: {}".format(isSolved))
+		        print("Moves that have scrambled the cube: {}".format(t.moves))
+		        print("Moves that solve the cube: {}".format(isSolved))
 #	        fh.write("\n")
 		        fh.write("{}, {}, {}, {}, {}, {}, {}, {}".format(t.tlf, t.blf, t.trf, t.brf, t.tlb, t.blb, t.trb, t.brb))
 		        fh.write("|")
